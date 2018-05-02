@@ -1,0 +1,97 @@
+/* center nav area*/
+#container .banner_ad { width: 800px; text-align: center; margin: 3px auto; }
+.banner_ad_fix { width:100%; text-align: center; padding: 3px 0; background: #FFFFFF; }
+.banner_ad { width: 728px !important; height:90px; text-align: center; background: #ffffff; margin: 0 auto; }
+
+/* wrapper div around entire navigation */
+#navigation {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  width: auto;
+  height: 120px;
+  position:relative;
+  margin:0;
+  padding:0;
+}
+
+/* logo div floats left */
+#logo {
+  float: left;
+  height: 65px;
+}
+.logo {
+  margin: 20px 0 0 10px;
+}
+
+/* subnav and search div floats right and contains the subnav and search divs */
+#subnav_search {
+  text-align: right;
+  float:right;
+  margin-right: 10px;
+}
+#subnav {
+  width: 450px;
+  font-size: 11px;
+  text-align:right;
+  color: #757575; 
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+#subnav a, #subnav a:visited {
+  color: #086989;
+  font-weight:bold;
+  text-decoration: none;
+}
+#subnav a:hover {
+  text-decoration: underline;
+}
+#search {
+  text-align: right;
+  margin:5px 0 0 0;
+  z-index:5000;
+  padding:0;
+  font-size: 12px;
+  color: #ffffff;
+  white-space: nowrap !important;
+}
+#search form {
+  color: #ff4000;
+  font-weight:bold;
+  font-size:12px;
+  margin:0;
+  padding:0;
+  text-align:right;
+}
+.globnav_inputbtn { margin:3px 0 -3px 0; height: 20px; font-size: 12px; }
+.globnav_textbox { margin: 0px 5px 1px 5px; height: 20px; width: 180px; color: #999; }
+.globnav_bullet { font-size:12px !important; font-weight:bold; }
+
+/* mainnav div is position relative and contains 2 floated divs for the left and right egde graphics for the bg image */
+#mainnav { margin:0; padding:0; width:100%;
+           background:url(http://images.friendster.com/images/navbar2_tile.gif) repeat #FF4400;
+           min-height: 20px; position:relative; text-align:center; color:#FFFFFF; font-size:12px; font-weight:bold; }
+#mainnav div.links { padding-top: 2px; text-align: center; }
+#mainnav div.links a:link, #mainnav div.links a:visited, #mainnav div.links a:active { color:#ffffff; text-decoration:none; }
+#mainnav div.links a:hover { color:#ffffff; text-decoration:underline; }
+#mainnav .left { float:left; width:4px; height:20px; background:url(http://images.friendster.com/images/navbar2_left.gif) no-repeat; margin: 0 5px 0 0; padding:0; }
+#mainnav .right { float:right; width:4px;  height:20px; background:url(http://images.friendster.com/images/navbar2_right.gif) no-repeat; margin: 0; padding: 0;}
+#moredropdown { font-weight: normal !important; color: #ffffff; }
+
+/* navdivider div to get the horizontal lines between the orange and grey bars without having to deal with the boxmodel since the orange and grey bars require specific heights */
+#navdivider { width:auto; margin:0; padding:0; font-size:0; line-height:0; border-top:1px solid #999;
+              border-bottom: 1px solid #ffffff; }
+
+/* marketing_bg div contains the background color and bottom shadow tile, content goes in the marketing div */
+#marketing_bg { width: auto; height:27px; text-align: center; font-weight: normal; font-size: 12px;
+                color: #000; padding: 2px 0 0 0; background: #f3f3f3 url(http://images.friendster.com/images/marketing_bg.gif) repeat-x;
+                background-position:bottom; }
+#marketing { text-align: center; }
+#marketing .featspons { color: #666 !important; font-size: 10px !important; }
+#marketing a:link, #marketing a:visited, #marketing a:active {  color: #3333ff; text-decoration: none; }
+#marketing a:hover {  color: #3333ff; text-decoration: underline; }
+
+/* TRUE */
+.newicon { height: 10px; margin-left: 3px; }
+.newicon img { margin-bottom: 4px; }
+#navrow .newicon img { margin-bottom: 4px !important; margin-bottom: 8px; }
+

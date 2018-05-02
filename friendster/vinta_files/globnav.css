@@ -1,0 +1,159 @@
+/* center nav area*/
+#container .banner_ad { width: 800px; text-align: center; margin: 3px auto; }
+.banner_ad_fix { width:100%; text-align: center; padding: 3px 0; }
+.banner_ad { width: 728px !important; height:90px; text-align: center; margin: 0 auto; }
+
+/* wrapper div around entire navigation */
+#navigation {
+  width: auto;
+  height: 97px;
+  position:relative;
+  margin:0;
+  padding:10px 0 0 0;
+	font-family: arial,helvetica,sans-serif;
+	line-height: 1.0em;
+}
+
+#navBg {
+position: absolute;
+width: 100%;
+height: 81px;
+}
+
+#navBar {
+position: relative;
+}
+
+/* logo div floats left */
+#logo img {
+  height: 18px;
+}
+
+/* subnav and search div floats right and contains the subnav and search divs */
+#subnav_search {
+  text-align: right;
+  margin-right: 10px;
+}
+#subnav {
+  font-size: 11px;
+  text-align:right;
+  color: #757575; 
+  padding: 0;
+}
+#subnav a, #subnav a:visited {
+  color: #086989;
+  font-weight:bold;
+  text-decoration: none;
+}
+#subnav a:hover {
+  text-decoration: underline;
+}
+#search {
+  text-align: right;
+  z-index:5000;
+  padding:0;
+  font-size: 12px;
+  color: #ffffff;
+  white-space: nowrap !important;
+}
+#search form {
+  color: #ff4000;
+  font-weight:bold;
+  font-size:12px;
+  margin:0;
+  padding:0;
+  text-align:right;
+}
+.globnav_inputbtn { margin:0px 0px 1px 0px; height: 19px; width: 19px; font-size: 11px; }
+.globnav_textbox { margin: 0px 1px 4px 5px; height: 19px; width: 140px; color: #999; font-size: 11px; }
+.globnav_pipe { font-size:12px !important; font-weight:bold; margin: 0 1px;}
+
+/* mainnav div is position relative and contains 2 floated divs for the left and right egde graphics for the bg image */
+#mainnav { padding:0; margin:5px 0 0 0; width:100%;
+background:url(http://images.friendster.com/images/navbar2_tile.gif) repeat #528BC0;
+min-height: 20px; position:relative; text-align:center; color:#FFFFFF; font-size:12px; font-weight:bold; }
+#mainnav div.links { padding-top: 2px; text-align: center; }
+#mainnav div.links a:link, #mainnav div.links a:visited, #mainnav div.links a:active { color:#ffffff; text-decoration:none; }
+#mainnav div.links a:hover { color:#ffffff; text-decoration:underline; }
+#mainnav_left { float:left; width:4px; height:20px; background:url(/images/navbar2_left.gif) no-repeat; margin: 0 5px 0 0; padding:0; }
+#mainnav_right { float:right; width:4px;  height:20px; background:url(/images/navbar2_right.gif) no-repeat; margin: 0; padding: 0;}
+#moredropdown { font-weight: normal !important; color: #ffffff; }
+
+.primary_links { float: left; padding-left: 10px;}
+.secondary_links { float: right; padding-right: 10px;}
+/* navdivider div to get the horizontal lines between the orange and grey bars without having to deal with the boxmodel since the orange and grey bars require specific heights */
+#navdivider { width:auto; margin:0; padding:0; font-size:0; line-height:0; border-top:1px solid #999;
+              border-bottom: 1px solid #ffffff; }
+
+/* marketing_bg div contains the background color and bottom shadow tile, content goes in the marketing div */
+#marketing_bg { width: auto; height:27px; text-align: center; font-weight: normal; font-size: 12px;
+                color: #000; padding: 2px 0 0 0; background: #f3f3f3 url(http://images.friendster.com/images/marketing_bg.gif) repeat-x;
+                background-position:bottom; }
+#marketing { text-align: center; }
+#marketing .featspons { color: #666 !important; font-size: 10px !important; }
+#marketing a:link, #marketing a:visited, #marketing a:active {  color: #3333ff; text-decoration: none; }
+#marketing a:hover {  color: #3333ff; text-decoration: underline; }
+
+/* TRUE */
+.newicon { height: 10px; margin-left: 3px; }
+.newicon img { margin-bottom: 4px; }
+#navrow .newicon img { margin-bottom: 4px !important; margin-bottom: 8px; }
+
+/* - - FOOTER - - */
+  #footer_container { width: 850px; margin: 0 auto; font-family: arial,helvetica,sans-serif; line-height: 1.0em; }
+  #footer { font-size: 10px; line-height: 1em; position: relative; margin: 10px auto; text-align: center; color: #666666; }
+  #footer a { font-size: 10px; color: #666666; }
+/* - - END FOOTER - - */
+
+/*- - GOOGLE SEARCH - -*/
+
+/* Google Search Bar */
+
+#nav_search {
+	width: 319px;
+	height: 53px;
+	display: inline-block;
+    margin: 0 auto 0 30px;
+	background: url(http://images.friendster.com/images/searchbarbg.png) 0 0 no-repeat;
+}
+
+#nav_search:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+}
+
+head:first-child+body #search {
+	display: block !important;
+}
+
+#friendstersearchlist {
+	float: left !important;
+    margin: 2px 0 0 15px;
+	display: inline;
+	position: relative;
+}
+
+head:first-child+body #nav_search select {
+	width: 131px !important;
+	padding: 0;
+}
+
+#nav_search span {
+    display: block;
+    text-align: center;
+    margin: 0 0 5px 0;
+	padding: 5px 0 0 0;
+    color: #ff4000;
+	font-weight:bold;
+	font-size: 12px;
+}
+/*
+#googlesearchlogo {
+	float: left;
+	display: inline;
+	margin-left: 50px;
+}
+*/

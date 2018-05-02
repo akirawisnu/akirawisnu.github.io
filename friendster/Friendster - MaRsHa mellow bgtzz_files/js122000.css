@@ -1,0 +1,27 @@
+/* MASTER BACKGROUND */
+body {
+background-repeat: repeat;
+background-image: url(12200000.jpg);
+}
+/* Default link styles */
+a:link, a:visited, a:active { text-decoration: none; color: #ed1b24; }
+a:hover { text-decoration: underline; color: #ed1b24; }
+a.action:link, a.action:visited, a.action:hover, a.action:active, .controlpanel .label { color: #ed1b24; }
+
+.commonbox h1, .commonbox h2 {
+background-color:#ed1b24;
+color:#ffffff;
+}
+
+.commonbox, .controlpanel {
+background-color:#fbd3b9!important;
+}
+.imgblock200 { border: 1px solid #ed1b24; }
+#controlPanelButtons a, #controlPanelButtons a:link, #controlPanelButtons a:visited { color: #fff; background:#ed1b24; border: 1px solid #fbd3b9; }
+#controlPanelButtons a:hover {color:#fff; background:#f18a4f;}
+
+.evenrow, .dr { background: #F4C18E; }
+
+
+
+

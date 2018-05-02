@@ -1,0 +1,298 @@
+/* center nav area*/
+#container .banner_ad { width: 800px; text-align: center; margin: 3px auto; }
+.banner_ad_fix { width:100%; text-align: center; padding: 3px 0; }
+.banner_ad { width: 728px !important; height:90px; text-align: center; margin: 0 auto; }
+
+/* wrapper div around entire navigation */
+#navigation {
+  width: auto;
+  height: auto;
+  position:relative;
+  margin:0;
+  padding:0;
+  font-family: arial,helvetica,sans-serif;
+  line-height: 1.0em;
+  z-index: 50000 !important;
+}
+
+#navLang {
+font-size: 10px;
+text-align: right;
+margin: 5px 0 0;
+}
+
+#navLang a {padding: 0 3px;}
+#navLang span.selLang {background: #eee; padding: 0 3px;}
+
+/* - - LANGUAGE POPUP PANELS - - */
+.languagePanel { margin: 0; padding: 7px 10px !important; border: 2px solid #68A6BA; background: #FFFFFF; position: absolute; z-index: 2000 !important; text-align: left; }
+.languagePanel div, .languagePanel input { margin: 3px 0; }
+.languagePanel h2 {color: #FF6619; font-size: 14px; margin-bottom: 5px;}
+.languagePanel { width: 280px; left: 680px; top: 10px; line-height: 16px;}
+.languagePanel .promptButton {background: #eee; border: 1px solid #528BC0; color:#528BC0; width: 60px;}
+
+#navBg {
+position: absolute;
+width: 100%;
+height: 81px;
+}
+
+#navBar {
+position: relative;
+}
+
+/* logo div floats left */
+#logo img {
+  height: 18px;
+}
+
+/* subnav and search div floats right and contains the subnav and search divs */
+#subnav_search {
+  text-align: right;
+  margin-right: 0;
+}
+#subnav {
+  font-size: 11px;
+  text-align:right;
+  color: #757575; 
+  padding: 0;
+}
+#subnav a, #subnav a:visited {
+  color: #086989;
+  font-weight:bold;
+  text-decoration: none;
+}
+#subnav a:hover {
+  text-decoration: underline;
+}
+#search {
+  text-align: right;
+  z-index:5000;
+  padding:0;
+  font-size: 12px;
+  color: #ffffff;
+  white-space: nowrap !important;
+}
+
+#search form {
+  color: #555 !important;
+  font-weight: normal !important;
+  font-size:12px;
+  margin:0;
+  padding:0;
+  text-align:right;
+}
+.globnav_inputbtn { margin:0px 0px 1px 0px; height: 19px; width: 19px; font-size: 11px; }
+.globnav_textbox { margin: 0px 1px 4px 5px; width: 140px; color: #999; font-size: 11px; }
+.globnav_pipe { font-size:12px !important; font-weight:bold; margin: 0 1px;}
+
+a#websearchtoggle, a#friendstersearchtoggle { color: #528BC0 !important; cursor: pointer !important;}
+a:hover#websearchtoggle, a:hover#friendstersearchtoggle { color: #ff4000 !important; }
+
+#mainnav { 
+background: #4399cc url(navbar20.gif) repeat; 
+height: 20px; 
+position: relative; /* fix for peekaboo bug in IE */
+}
+
+#mainnav ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+line-height: 20px;
+z-index: 20000;
+position: relative; /* fix for peekaboo bug in IE */
+}
+
+/*Top level list items*/
+#mainnav ul li{
+display: inline;
+float: left; /* fix for opera */
+text-align: left;
+position: relative;
+}
+
+/*Top level menu link items style*/
+#mainnav ul li a{
+display: inline;
+padding: 0 20px 0 8px;
+text-decoration: none !important;
+color: #fff;
+font-size: 12px !important;
+line-height: 20px;
+font-weight: bold;
+white-space: nowrap !important;
+}
+
+/* ie negative filtering */
+head:first-child+body div #mainnav ul li a { padding: 2px 20px 3px 8px; }
+
+#mainnav ul li a:hover{
+color: #fff;
+background-color: #4A93DD;
+text-decoration: none !important;
+}
+	
+/*1st sub level menu*/
+#mainnav ul li ul{
+left: 0;
+position: absolute;
+top: 20px; /* value not set by javascript */
+display: block;
+visibility: hidden;
+padding: 5px 0 5px 0 !important;
+background-color: #4A93DD;
+width: 150px !important; /*width of sub menu levels*/
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+#mainnav ul li ul li{
+display: list-item;
+float: none;
+border-bottom: 1px dotted #fff;
+margin: 0 5px 0 5px !important;
+padding: 0 !important;
+}
+
+#mainnav ul li ul li.sublink_top {
+border-top: 1px dotted #fff;
+}
+
+/* Sub level menu links style */
+#mainnav ul li ul li a{
+display: block !important;
+color: #fff;
+padding: 1px 0 1px 5px !important;
+background-color: #4A93DD;
+}
+
+#mainnav ul li ul li a:hover{
+color: #fff;
+background-color: #6DA4DB;
+text-decoration: none !important;
+}
+
+/*Background image for top level menu list links */
+#mainnav .mainfoldericon{
+background: url(arrow_dp.gif) no-repeat center right;
+}
+	
+/* Holly Hack for IE \*/
+* html #mainnav ul li { float: left; height: 1%; }
+* html #mainnav ul li a { height: 1%; }
+* html #mainnav ul li ul li { float: left;}
+
+.primary_links { float: left; width: 60%; }
+.secondary_links { float: left; line-height: 20px; text-align: right; width: 40%; }
+.secondary_links a, .secondary_links a:link, .secondary_links a:visited, .secondary_links a:active { color: #fff; padding: 0 10px; font-size: 12px !important; font-weight: bold; }
+
+
+/* navdivider div to get the horizontal lines between the orange and grey bars without having to deal with the boxmodel since the orange and grey bars require specific heights */
+#navdivider { width:auto; margin:0; padding:0; font-size:0; line-height:0; border-top:1px solid #999;
+              border-bottom: 1px solid #ffffff; }
+
+/* marketing_bg div contains the background color and bottom shadow tile, content goes in the marketing div */
+#marketing_bg { width: auto; height: 37px; font-weight: normal; font-size: 12px;
+                color: #000; padding: 0; background: #f3f3f3 url(marketio.gif) repeat-x;
+                background-position:bottom;}
+
+#marketing { float:left; margin: 10px 0 0 10px; width:400px;}
+#marketing .featspons { color: #666 !important; font-size: 10px !important; }
+#marketing a:link, #marketing a:visited, #marketing a:active {  color: #3333ff; text-decoration: none; }
+#marketing a:hover {  color: #3333ff; text-decoration: underline; }
+
+/* TRUE */
+.newicon { height: 10px; margin-left: 3px; }
+.newicon img { margin-bottom: 4px; }
+#navrow .newicon img { margin-bottom: 4px !important; margin-bottom: 8px; }
+
+/* - - FOOTER - - */
+  #footer_container { width: 850px; margin: 0 auto; font-family: arial,helvetica,sans-serif; line-height: 1.0em; }
+  #footer { font-size: 10px; line-height: 1em; position: relative; margin: 10px auto; text-align: center; color: #666666; }
+  #footer a { font-size: 10px; color: #666666; }
+/* - - END FOOTER - - */
+
+/*- - GOOGLE SEARCH - -*/
+
+/* Google Search Bar */
+
+#nav_search {
+	width: 319px;
+	height: 53px;
+	display: inline-block;
+    margin: 0 auto 0 30px;
+	background: url(searchba.png) 0 0 no-repeat;
+}
+
+head:first-child+body #search {
+	display: block !important;
+}
+
+head:first-child+body #nav_search select {
+	width: 131px !important;
+	padding: 0;
+}
+
+#nav_search span {
+    display: block;
+    text-align: center;
+    margin: 0 0 5px 0;
+	padding: 5px 0 0 0;
+    color: #ff4000;
+	font-weight:bold;
+	font-size: 12px;
+}
+
+#surfer{padding:2px 2px 0 0; float: right; width: 370px;}
+#surfer a,#surfer a:hover {text-decoration: none;}
+#surfer .rightCorner {
+	float:right; 
+	background:url(surferRj.gif) no-repeat; 
+	width:4px; 
+	height:29px;
+}
+
+#surfer .buttons{
+	float:right; 
+	background:url(surferBh.gif) repeat-x; 
+	height:29px; 
+	padding: 0 0 0 4px; 
+	line-height: 29px; 
+	font-weight:bold;
+}
+
+#surfer #surferNxt, #surfer #surferPrv {
+	float: left;
+	padding: 0 5px;
+}
+
+#surfer .btnBreaker {
+	float:left;
+	background: #aaa; 
+	height:19px; 
+	width:1px; 
+	margin: 5px 0;
+}
+
+.backBtnDisb a, .backBtnDisb a:link, .backBtnDisb a:active, .backBtnDisb a:hover, .backBtnDisb a:visited, .nxtBtnDisb a, .nxtBtnDisb a:link, .nxtBtnDisb a:active, .nxtBtnDisb a:hover, .nxtBtnDisb a:visited {
+	color: #999;
+}
+
+#surfer .selectBox {
+	float:right;
+	background:url(surferBh.gif) repeat-x;
+	width:143px;
+	height:29px;
+}
+
+#surfer .selectBox SELECT {
+	margin: 3px 0 0 3px;
+	width:140px;
+}
+ 
+#surfer .surferTag {
+	float:right;
+	background:url(theSurff.png) no-repeat;
+	width:61px;
+	height:29px;
+}
