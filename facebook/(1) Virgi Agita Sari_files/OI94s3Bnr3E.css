@@ -1,0 +1,76 @@
+/*!CK:1412703054!*//*1390801570,178127453*/
+
+._uq6 + div, ._3q_3 + div{margin-top:15px}
+._uq6 + ._3q_3{margin-top:10px}
+._4lh ._uq6{margin:0 0 15px}
+._4lh ._uq6 + div, ._4lh ._3q_3 + div, ._4lh ._uq6 + ._3q_3{margin-top:0}
+.ogAggregation ul, .ogAggregation li, .ogProfileReport ul, .ogProfileReport li, .layoutSelector li, .layoutSelector ul{list-style-type:none}
+.ogAppTab .timelineFullWidthReport{border:1px solid #c4cde0;border-bottom-width:2px;-webkit-border-radius:3px}
+.ogAppTab .fbTimelineOneColumn .topBorder, .ogAppTab .fbTimelineOneColumn .bottomBorder{display:none}
+.ogAppTab .timelineFullWidthReport{padding:0}
+.ogAppTab .timelineFullWidthReport .timelineReportHeader{margin:3px}
+.timelineFullWidthReport .timelineReportContent{margin-top:-3px}
+.ogAppTab .timelineReportHeader .title{font-size:15px;line-height:inherit;max-width:600px;padding-right:10px;vertical-align:bottom}
+.ogAppTab .primaryHeader .title{line-height:16px}
+.ogAppTab .noContentUnit{padding:13px 15px;border-top:1px solid #e5e5e5}
+.ogAppTab .fbTimelineCapsule .noContentUnit{width:394px}
+.ogAppTab .timelineReportContainer .fbTimelineTwoColumn .timelineUnitContainer{margin-bottom:2px;width:390px}
+.ogAppTab .timelineFullWidthReport .fbTimelineTwoColumn[data-side="l"] .timelineUnitContainer{margin-right:0}
+.ogAppTab .timelineFullWidthReport .fbTimelineTwoColumn[data-side="r"] .timelineUnitContainer{margin-left:0}
+.ogAppTab .timelineReportContainer .lastCapsule{margin:0}
+.ogAppTab .noContentUnit.fullWidth{text-align:center}
+.ogAppTab .noContentUnit .ogProfilePhoto{width:80px;height:80px}
+.ogAppTab .noContentUnit.fullWidth .ogProfilePhoto{margin-right:auto;margin-left:auto}
+.ogAppTab .noContentUnit .ogProfileTitle{color:#acacac}
+.ogProfileBigMedia .userContentWrapper{padding-left:15px;padding-right:15px}
+.ogProfileBigMedia .photoWrap{margin-bottom:3px}
+.ogProfileEditMessageArea{height:14px;width:100%}
+.ogProfileTitle{font-weight:bold}
+.ogProfileList .listItem{border-bottom:thin solid #e2e2e2}
+.ogProfileList .lastItem{border-bottom:0;padding-bottom:0}
+.ogProfileList .caption{float:right}
+.ogProfileList .imageContainer{height:50px;overflow:hidden;width:50px}
+.ogProfileList .imageContainer .innerImage{display:inline;width:50px}
+.ogProfileList .ogSeeMoreLink{display:inline-block;padding:0 0 0 60px}
+.ogProfileHistogramList .listItem{border-bottom:0}
+.ogProfileHistogramList .ogListImage{border-right:1px solid #fff}
+.ogProfileHistogramList .ogListText{padding-left:7px}
+.ogProfileGallery .caption{word-wrap:break-word}
+.ogProfileGallery .imageContainer{overflow:hidden;text-align:center;vertical-align:middle}
+.ogProfileList .imageContainer{height:50px;width:50px}
+.ogProfileList .timelineAudienceSelector{margin-top:-3px}
+.ogProfileGallery .imageContainer{height:87px;width:87px}
+.ogProfileGallery .caption, .ogProfileGallery .innerImage{width:87px}
+.ogProfileGallery .galleryLink{font-weight:bold}
+.ogProfilePoster .imageContainer{height:90px;overflow:hidden;width:90px}
+.ogProfilePoster .innerImage{width:90px}
+.ogProfilePoster .displayBlock{color:gray;max-height:400px;overflow:hidden}
+.ogProfilePoster .short{font-size:13px;font-weight:bold}
+.ogProfilePoster .long{font-size:11px}
+.ogProfilePoster .title_block{margin-bottom:3px}
+.ogProfileTable table{width:100%;table-layout:fixed;word-wrap:break-word}
+.ogProfileTable td{border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5}
+.ogProfileTable .even{background:#f2f2f2}
+.ogProfileTable .even, .ogProfileTable .odd{padding-top:2px;padding-bottom:2px}
+.ogProfileTable .header{color:#3b5998;border-top:none;padding-bottom:2px}
+.ogProfileTable a{font-weight:bold}
+.ogTableItem{margin-bottom:3px;margin-top:3px}
+.fbTimelineCapsule .ogAggregation{background:#fff;-webkit-border-radius:0 !important}
+.ogActionPermalink{float:right;opacity:0}
+.ogActionPermalink:hover{opacity:1}
+.ogFeedbackIcon{float:left;height:16px;margin:-1px 7px 0 0;width:16px}
+.ogAppTab .ogProfileNumber .bigNumber, .ogAppTab .ogProfileNumber .ogProfileNumberUnits{color:#6278ae}
+.ogAppTab .fbTimelineOneColumn .ogProfileList, .ogAppTab .fbTimelineOneColumn .ogProfileNumber, .ogAppTab .fbTimelineOneColumn .ogProfilePoster, .ogAppTab .fbTimelineOneColumn .ogProfileGallery{margin-left:3px}
+.ogAppTab .timelineReportContainer .timelineUnitContainer .aboveUnitContent{margin-bottom:10px}
+.ogAppTab .fbTimelineOneColumn .fbTimelineCapsule .timelineUnitContainer .ogProfileHeader{padding:5px 15px}
+.ogAppTab .fbTimelineOneColumn .spinePointer{display:none}
+.ogAppTab #all_time .fbTimelineOneColumn{margin-bottom:0}
+.ogSpikeUnitHeader .ogTimelineUnitActor{font-size:13px;margin-bottom:2px}
+.ogUnitWrapper{margin-top:15px}
+.ogProfileReport .ogUnitWraper{margin-top:0}
+.ogUnitWrapperBottomMargin{margin-bottom:15px}
+.ogProfileReport .ogUnitWrapper{margin:0 -3px}
+.ogAppTab .ogUnitWrapper .ogSpikeUnit{margin-bottom:-15px}
+
+#bootloader_Wjw6A { height: 42px; }
+.bootloader_Wjw6A { display:block !important; }

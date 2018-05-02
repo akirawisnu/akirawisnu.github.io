@@ -1,0 +1,90 @@
+/*!CK:2121267178!*//*1393210063,178201885*/
+
+html body em.intl-sandbox{font-style:normal}
+html body em.intl-prototype-approvable,
+html body em.intl-prototype-approved,
+html body em.intl-prototype-autoapproved,
+html body em.intl-prototype-complainable,
+html body em.intl-prototype-complained,
+html body em.intl-prototype-contributed,
+html body em.intl-prototype-iapproved,
+html body em.intl-prototype-prototype,
+html body em.intl-prototype-translatable,
+html body em.intl-prototype-translated,
+html body em.intl-prototype-voted{border-bottom:2px solid black;background:none;font-style:normal;padding:0;zoom:1;width:auto}
+html body em.intl-prototype-approvable:hover,
+html body em.intl-prototype-approved:hover,
+html body em.intl-prototype-autoapproved:hover,
+html body em.intl-prototype-complainable:hover,
+html body em.intl-prototype-complained:hover,
+html body em.intl-prototype-contributed:hover,
+html body em.intl-prototype-iapproved:hover,
+html body em.intl-prototype-prototype:hover,
+html body em.intl-prototype-translatable:hover,
+html body em.intl-prototype-translated:hover,
+html body em.intl-prototype-voted:hover{cursor:help;border-top:1px solid #ccc}
+html body em.intl-prototype-approvable,
+html body em.intl-prototype-prototype,
+html body em.intl-prototype-translatable,
+html body em.intl-prototype-unvotable,
+html body em.intl-prototype-votable{border-bottom:1px solid #f99;background:none}
+html body em.intl-prototype-approvable:hover,
+html body em.intl-prototype-prototype:hover,
+html body em.intl-prototype-translatable:hover,
+html body em.intl-prototype-unvotable:hover,
+html body em.intl-prototype-votable:hover{background-color:#fcc}
+html body em.intl-prototype-approved,
+html body em.intl-prototype-complainable,
+html body em.intl-prototype-translated{border-bottom:1px solid #6c9;background:none}
+html body em.intl-prototype-approved:hover,
+html body em.intl-prototype-complainable:hover,
+html body em.intl-prototype-translated:hover{background-color:#cdffcd}
+html body em.intl-prototype-autoapproved{border-bottom:1px dotted #6c9;background:none}
+html body em.intl-prototype-autoapproved:hover{background-color:#ccc}
+html body em.intl-prototype-complained,
+html body em.intl-prototype-contributed,
+html body em.intl-prototype-iapproved,
+html body em.intl-prototype-voted{border-bottom:1px solid #fc0;background:none}
+html body em.intl-prototype-complained:hover,
+html body em.intl-prototype-contributed:hover,
+html body em.intl-prototype-iapproved:hover,
+html body em.intl-prototype-voted:hover{background-color:#ff9}
+.intl-disabled{color:gray}
+._4ng{outline:0;position:relative}
+._4o9{border:1px solid rgba(0, 0, 0, .2)}
+._4nh{bottom:40px;position:absolute;width:100%}
+._4ni{position:relative;text-align:center}
+._4nj{bottom:0;left:0;position:absolute;right:0;top:0}
+._4n8{border:1px solid rgba(0, 0, 0, .45);border-bottom-color:#666;-webkit-box-shadow:0 3px 3px rgba(0, 0, 0, .1);margin:0 auto;position:relative;text-align:left;zoom:1}
+._4s-, ._4nb{max-width:340px}
+._4s_{display:inline-block}
+._4n9{bottom:-17px;height:17px;left:50%;margin-left:-7px;position:absolute}
+._4na ._4n9{bottom:-7px;height:9px;margin-left:-8px}
+._4nb{top:-7px;min-width:250px}
+._4t0{height:81px;overflow:hidden}
+._54c{float:left;height:81px;margin-left:3px;width:81px}
+._54c:first-child{margin:0}
+._4n7{background-position:50% 50%;background-repeat:no-repeat;height:81px;width:81px}
+._54d{left:5px;top:5px}
+._4t1{background:#eaeaea;height:7px;overflow:hidden;text-align:center;width:100%}
+._4t2{background:#fff;padding:0 3px;position:relative;text-transform:uppercase;top:-4px;white-space:nowrap}
+._4np{overflow:hidden}
+._4sy ._4np{max-height:2.66em}
+._4sz ._4np{max-height:3.99em}
+._5dn0, ._5egu{border:1px solid #e5e5e5;width:415px}
+.tickerDialogContent ._5dn0, .tickerDialogContent ._5egu{width:281px}
+._6xi{width:196px}
+._6xj{width:129px}
+._56xs._5b19 ._57_1{left:168px}
+._56xs ._5b1a{height:180px}
+._56xt._5b19 ._57_1{left:101px}
+._56xt ._5b1a{height:175px}
+._56xs._5b19 ._57_1{left:168px}
+.tickerDialogContent ._5b1a{height:auto}
+.tickerDialogContent ._56xs._5b19 ._57_1{left:101px}
+.tickerDialogContent ._56xt._5b19 ._57_1{left:75px}
+._4oa{margin:7px 0 -15px -12px;width:403px}
+._4lh ._4oa{margin-left:-9px;margin-top:0;width:504px}
+
+#bootloader_tXndf { height: 42px; }
+.bootloader_tXndf { display:block !important; }

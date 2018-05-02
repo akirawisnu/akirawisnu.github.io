@@ -1,0 +1,5 @@
+/*!CK:366632384!*//*1390792161,178158885*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["QWEvH"]); }
+
+__d("MercurySpoofWarning.react",["MercuryParticipants","ReactPropTypes","React","fbt"],function(a,b,c,d,e,f){var g=b('MercuryParticipants'),h=b('ReactPropTypes'),i=b('React'),j=b('fbt'),k=i.createClass({displayName:'MercurySpoofWarning',propTypes:{authorID:h.string.isRequired},getInitialState:function(){return {author:{name:''}};},componentWillMount:function(){this.componentWillReceiveProps(this.props);},componentWillReceiveProps:function(l){g.get(l.authorID,function(m){return this.setState({author:m});}.bind(this));},render:function(){return this.transferPropsTo(i.DOM.div(null,j._("Unable to confirm {name_or_email} as the sender.",[j.param("name_or_email",this.state.author.name)])));}});e.exports=k;});

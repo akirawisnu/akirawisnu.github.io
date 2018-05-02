@@ -1,0 +1,79 @@
+
+<!-- saved from url=(0072)https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-frc3/hellocdn.html?v=1 -->
+<html class=" clickberry-extension clickberry-extension-standalone"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><script>
+function setHeaders(xhr, config) {
+  if (config.cdn == "ak") {
+    xhr.setRequestHeader("Pragma",
+      "akamai-x-cache-on, akamai-x-cache-remote-on, akamai-x-check-cacheable,"+
+      " akamai-x-get-cache-key,akamai-x-get-extracted-values, akamai-x-get-nonces,"+
+      " akamai-x-get-ssl-client-session-id, akamai-x-get-true-cache-key,akamai-x-serial-no");
+  } else {
+    xhr.setRequestHeader("X-Fb-Debug",'True');
+  }
+
+  if (!config.clear_cache) {
+    xhr.setRequestHeader('Cache-Control','no-cache')
+  } else {
+    xhr.setRequestHeader('If-Modified-Since', new Date(0).toUTCString());
+  }
+}
+
+function getCurrentMilliseconds() {
+  d = new Date();
+  return d.getTime();
+}
+
+function run_tests(config) {
+  var xhr = new XMLHttpRequest();
+  if (config.clear_cache) {
+    config.url += '?r='+Math.random();
+  }
+  // the request is sync to have better measures
+  xhr.open("GET", config.url, false);
+  setHeaders(xhr, config);
+  
+
+  var start = getCurrentMilliseconds();
+  xhr.send();
+  var end = getCurrentMilliseconds();
+
+  var result = {};
+  result['loading_time'] = end - start;
+  result['platform'] = 'www';
+  result['cdn'] = config.cdn;
+  result['url'] = config.url;
+  result['headers'] = xhr.getAllResponseHeaders();
+  result['status'] = xhr.status;
+  return result;
+}
+
+// hardcode the return url
+var result_endpoint = "https://www.facebook.com/hellocdn/results";
+
+var akamai_pattern = /^(fb|fbcdn-).*-a\.akamaihd.net$/;
+var fbcdn_pattern = /.*\.fbcdn\.net$/;
+
+// only authorize loading this script from our cdns
+function isValidDomain() {
+  return akamai_pattern.test(document.domain) ||
+    fbcdn_pattern.test(document.domain);
+}
+
+//sends the result back by loading an image to avoid XSS protections
+function postResults(results) {
+  var result = JSON.stringify({results: results});
+  var return_image = new Image();
+  return_image.src = result_endpoint+"?data="+encodeURIComponent(result); 
+}
+
+if (window.addEventListener && isValidDomain()) {
+  window.addEventListener("message", function(e) {
+    var msgObj = JSON.parse(e.data);
+    config = msgObj.config;
+    results = config.map(run_tests);
+    postResults(results);
+  });
+};
+</script>
+
+<meta content="clickberry-extension-here"></head><body></body></html>

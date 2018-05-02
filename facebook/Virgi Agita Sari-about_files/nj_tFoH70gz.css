@@ -1,0 +1,129 @@
+/*!CK:2339804790!*//*1393399123,178201885*/
+
+.fbEventGuestInviters{display:inline-block;position:relative;top:-1px}
+.fbEventGuestInviters .fbEventGuestInvitersIcon{position:relative;top:2px}
+.fbProfileBrowserListItem .fbEventGuestInviters .fbEventGuestInvitersIcon{top:3px}
+.fbEventsPage{border-right:1px solid #ccc}
+.fbEventHeader .fbEventHeadline{max-width:480px;margin-bottom:6px}
+.fbEventHeader .fbEventHeadlineLink{color:#333}
+.fbEventHeader .fbEventButtons{text-align:right}
+.fbEventHeader .fbEventButtons .uiSelector{text-align:left}
+.fbEventHeader .fbEventStatus{margin-top:5px;text-align:right}
+.fbEventHeader .fbEventJoinButton{padding-left:10px;padding-right:10px}
+.fbEventHeader .fbEventJoinButton .img, .fbEventHeader .fbEventInviteButton .img{margin-top:2px}
+.fbEventPhotoPlaceholder{height:43px}
+.fbEventPhoto{margin:1px 0 0 -1px}
+.eventProfilePicture{display:block;overflow:hidden;position:relative;width:180px}
+.eventProfilePicture .fbEventProfilePicSelector{background:transparent}
+.eventProfilePicture .edit_profilepicture{margin:1px 0 0 -1px}
+.eventProfilePicture:hover .edit_profilepicture{display:block}
+.eventProfilePicture .openToggler{display:block;opacity:1.0}
+.fbEventDivider{color:#333;margin-left:-20px}
+.fbEventContent{border-left:1px solid #ccc;padding-left:20px;width:513px}
+.fbEventInfo .uiInfoTable{width:450px}
+.fbEventInfo .fbEventTimeWeatherInfo{overflow:hidden;white-space:nowrap;width:513px}
+.fbEventInfo .fbEventTimeWeatherInfo .fbEventTimeWeatherInfoSection{height:36px}
+.fbEventLeftNav{float:left;padding:0 0 0 0;position:relative;width:179px;word-wrap:break-word}
+.fbEventInfo .uiInfoTable .label{white-space:nowrap;width:45px}
+.fbEventInfo .fbInfoIcon{text-align:center;width:30px}
+.fbEventInfo .fbEventTimeAdder{white-space:nowrap}
+.fbEventLocationInfo{width:463px}
+.fbLocationEditorContainer{position:relative;left:50%;height:0}
+.fbLocationEditor, .fbLocationEditorWithCity{border:1px solid rgba(0, 0, 0, .45);border-bottom-color:#666;-webkit-box-shadow:0 3px 8px rgba(0, 0, 0, .3);position:relative;left:-50%}
+.fbLocationEditor{top:30px}
+.fbLocationEditorWithCity{top:22px}
+.fbEventPermalink .fbPostsHeader{margin-left:-20px;padding-left:20px}
+.fbEventPermalink .fbEventComposer{margin-left:-20px;padding-left:20px;padding-top:12px}
+.fbEventPermalink .fbEventComposerBordered{border-top:1px solid #ccc;margin-top:15px}
+.fbEventWall{margin-top:12px}
+.fbEventWall .uiStream .uiStreamStory{margin-left:-20px;padding-left:20px}
+.fbEventWall .topborder, .fbEventWall .fbGroupsBoulderStream .fbGroupsSlimStreamHeader{margin-left:-20px}
+.fbEventGuests{margin-top:0}
+.fbEventGuests .selected{color:#333;cursor:default;text-decoration:none}
+.fbEventGuests .fbGuestDivider{overflow:hidden}
+.fbEventHeader.fbEditCover .coverEditor{padding:0;height:46px}
+.fbEventHeader.fbEditCover .coverImage .profilePicNotch{display:none}
+.fbEventHeader.fbEditCover .fbEventHeaderBlock{display:none}
+.fbEventHeader #fbProfileCover .coverWrap{height:264px}
+.fbEventHeader #fbProfileCover .coverImage{height:264px;margin-bottom:10px;width:714px}
+.fbEventHeader #fbProfileCover .coverNoImage{height:60px;background:white;border-bottom:1px dashed #c4cde0}
+.fbEventHeader #fbProfileCover .coverNoImage .fbProfileCoverPhotoSelector{top:20px}
+.fbEventHeader #fbProfileCover .fbProfileCoverPhotoSelector{right:1px;top:224px}
+.fbUpsellRoeButton{text-align:right}
+.fbEventSuggestionArea{padding-bottom:15px}
+.fbEventSuggestionAreaHeight{height:165px}
+.fbEventsNewDesignRHC .fbEventGuestSuggestion{height:32px;width:255px}
+.fbEventGuestSuggestion{height:32px;width:229px}
+.fbEventGuestSuggestion .fbEventSuggesteeName{white-space:nowrap;line-height:32px;vertical-align:middle;display:block;overflow:hidden;text-overflow:ellipsis}
+.fbEventGuestSuggestion .fbEventRemoveSuggestion{margin:11px 0}
+.fbEventGuests .fbEventRemoveAction{margin-top:3px}
+.fbEventPrivacy .fbEventPrivacyIcon{position:relative;top:1px;width:13px}
+.fbEventPrivacy .fbEventPrivacyShortIcon{position:relative;top:2px;width:13px}
+.fbEventGuestItem .fbEventGuestItemHover{visibility:hidden}
+.fbEventGuestItem:hover .fbEventGuestItemHover{visibility:visible}
+.fbEventAdUpsell{line-height:13px;width:244px}
+.fbEventCenter{text-align:center}
+.fbEventMemberLike{display:inline}
+.fbEventMemberComment{height:14px;margin-top:3px;width:315px}
+.fbEventJoinerGoingStoryVoiceBox{height:14px;margin-top:8px;width:260px}
+.fbEventDeleteSelector{margin-top:5px}
+._5w40.fbEventHeader{background:#fff;border:1px solid;border-color:#e5e6e9 #dfe0e4 #d0d1d5;-webkit-border-radius:0 0 3px 3px;position:relative}
+._2kn_{position:relative}
+._5w40.fbEventHeader #fbProfileCover{margin:0;width:100%}
+._5w40.fbEventHeader #fbProfileCover .coverImage{border-bottom:0;margin-bottom:0;width:100%}
+._5w40.fbEventHeader #fbProfileCover .fbProfileCoverPhotoSelector{top:180px}
+._5w40.fbEventHeader #fbProfileCover .coverWrap:before{background:url(/rsrc.php/v2/y_/r/BLkQpe-i5LN.png) bottom left repeat-x;bottom:0;content:'';display:block;height:300px;left:0;position:absolute;width:100%;z-index:1}
+._5w40.fbEventHeader #fbProfileCover .coverImage.coverNoImage:before{border:1px solid rgba(0, 0, 0, .1);border-top:0;bottom:0;content:'';display:block;left:0;position:absolute;right:0;top:0;width:782px}
+._5w40.fbEventHeader #fbProfileCover .coverBorder{border:1px solid rgba(0, 0, 0, .1);border-top:0}
+._5w40.fbEventHeader #fbProfileCover .coverWrap, ._5w40.adminCoverImage.fbEventHeader #fbProfileCover .coverImage.coverNoImage, ._5w40.fbEventHeader #fbProfileCover .coverImage{height:295px}
+._5w40.fbEventHeader #fbProfileCover .coverImage.coverNoImage{height:144px}
+._5w40.adminCoverImage.fbEventHeader #fbProfileCover .coverImage.coverNoImage:before{height:293px}
+._5w40.fbEventHeader #fbProfileCover .coverImage.coverNoImage:before{height:142px}
+._5w40.fbEventHeader #fbProfileCover .fbProfileCoverPhotoSelector, ._5w40.fbEventHeader #fbProfileCover .coverNoImage .fbProfileCoverPhotoSelector, ._5w40.fbEventHeader #fbProfileCover .coverEditor{height:20px;position:absolute;right:16px;top:18px;z-index:3}
+._5w40.fbEventHeader.noCoverImage #fbProfileCover .coverImage:before{background:none;background-color:#d3d6db}
+._5v1l{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:28px;font-weight:500;text-shadow:0 1px 3px rgba(0, 0, 0, .5)}
+._5v1l._11s4{font-size:20px;line-height:24px;max-height:120px;overflow:hidden}
+._5v1l a{color:#fff}
+._5w40.fbEventHeader.noCoverImage ._5v1l a{color:#4e5665;min-height:48px;text-shadow:none}
+._2ko0{width:100%}
+._5v1m{color:#898f9c;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:12px;font-weight:normal;margin:12px;overflow:hidden;padding:6px 0;text-overflow:ellipsis;white-space:nowrap}
+._5v1n{color:#fff;font-weight:bold}
+._5v1o{bottom:0;position:absolute;width:100%;z-index:2}
+._2ko1{position:relative}
+._5v1p{margin:0 12px;text-align:right;white-space:nowrap}
+._5v1p ._42fr, ._5v1p ._42fr:active, ._5v1p ._42fr:hover{color:#898f9c;opacity:1}
+._3ele{margin-right:8px}
+._5v1q{margin-left:70px;max-width:704px;padding-bottom:12px;word-wrap:break-word}
+._5v1q.rfloat{float:left}
+._5v1r{background-color:rgba(0,0,0,0.1);border:2px solid #fff;-webkit-border-radius:3px;color:#fff;font-size:28px;font-weight:500;left:12px;padding-bottom:9px;padding-top:7px;position:absolute;text-align:center;text-shadow:0 1px 1px rgba(0, 0, 0, .1);top:0;width:46px}
+.noCoverImage ._5v1r{background-color:#fff;border:1px solid rgba(0,0,0,0.3);text-shadow:none}
+._5v1s{color:#fff;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:10px;font-weight:500;margin:-2px auto 0 auto}
+._5v1t{color:#fff;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:22px;font-weight:500;margin:-2px auto -6px auto}
+._3elf{padding-right:3px}
+._3elg{padding-left:3px}
+._5gdb{white-space:nowrap}
+._5w40.fbEventHeader.noCoverImage ._5v1t{color:#5d6676}
+._5w40.fbEventHeader.noCoverImage ._5v1s{color:#b2544d}
+._59bt{margin-top:5px;text-align:center}
+._59bu{margin-top:-5px}
+._5cak{line-height:28px;vertical-align:middle}
+._5cal{-webkit-border-radius:3px}
+.fbTimelineHeaderProgressBar{width:150px}
+.sp_63zvxe{background-image:url(/rsrc.php/v2/yw/r/kFXcPI7VaSU.png);background-size:auto;background-repeat:no-repeat;display:inline-block;height:12px;width:12px}
+.sx_72de73{width:11px;height:11px;background-position:0 -85px}
+.sx_27e175{width:16px;height:16px;background-position:0 -11px}
+.sx_f15e31{background-position:0 -59px}
+.sx_1547d1{background-position:0 -72px}
+.sx_946d7a{width:15px;height:16px;background-position:0 -28px}
+.sx_628e67{width:9px;height:13px;background-position:0 -45px}
+.sx_44ccf7{width:10px;height:10px;background-position:-10px 0}
+.selected .sx_44ccf7{background-position:0 0}
+.sp_dsc6sn{background-image:url(/rsrc.php/v2/yg/r/UFVvy8K2Wly.png);background-size:auto;background-repeat:no-repeat;display:inline-block;height:12px;width:12px}
+.sx_d8eae6{background-position:0 0}
+.sx_868737{background-position:0 -13px}
+.sx_3844ac{background-position:0 -26px}
+.sx_18ec71{background-position:0 -39px}
+.sx_ee1fc6{background-position:0 -52px}
+
+#bootloader_14Dma { height: 42px; }
+.bootloader_14Dma { display:block !important; }

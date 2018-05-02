@@ -1,0 +1,5 @@
+/*!CK:1979626288!*//*1390812642,178127443*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["2\/maQ"]); }
+
+__d("Live",["Arbiter","AsyncDOM","AsyncSignal","ChannelConstants","DataStore","DOM","ServerJS","createArrayFrom","emptyFunction"],function(a,b,c,d,e,f){var g=b('Arbiter'),h=b('AsyncDOM'),i=b('AsyncSignal'),j=b('ChannelConstants'),k=b('DataStore'),l=b('DOM'),m=b('ServerJS'),n=b('createArrayFrom'),o=b('emptyFunction');function p(r,s){s=JSON.parse(JSON.stringify(s));new m().setRelativeTo(r).handle(s);}var q={logAll:false,startup:function(r){q.logAll=r;q.startup=o;g.subscribe(j.getArbiterType('live'),q.handleMessage.bind(q));},lookupLiveNode:function(r,s){var t=l.scry(document.body,'.live_'+r+'_'+s);t.forEach(function(u){if(k.get(u,'seqnum')===undefined){var v=JSON.parse(u.getAttribute('data-live'));k.set(u,'seqnum',v.seq);}});return t;},handleMessage:function(r,s){var t=s.obj,u=t.fbid,v=t.assoc,w=this.lookupLiveNode(u,v);if(!w)return false;w.forEach(function(x){h.invoke(t.updates,x);if(t.js)p(x,t.js);});},log:function(){if(q.logAll){var r=n(arguments).join(':');new i('/common/scribe_endpoint.php',{c:'live_sequence',m:r}).send();}}};e.exports=q;});

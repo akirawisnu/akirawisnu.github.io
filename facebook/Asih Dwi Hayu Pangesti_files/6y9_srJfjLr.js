@@ -1,0 +1,6 @@
+/*!CK:4131157896!*//*1394438214,178158627*/
+
+if (self.CavalryLogger) { CavalryLogger.start_js(["MlepD"]); }
+
+__d("TimelineAggregateMapUnitStatic",["AsyncRequest","CSS","DOM","Event","Style","Vector","$","copyProperties"],function(a,b,c,d,e,f,g,h,i,j,k,l,m,n){function o(){"use strict";}o.prototype.init=function(p,q,r,s,t,u,v,w,x){"use strict";var y=m(q),z=function(){var aa={map_id:p,start:r,end:s,profile_id:t,hash:u,unit_type:v,width:x.width||y.offsetWidth,height:x.height||y.offsetHeight};if(w)aa.viewas=w;new g().setURI('/ajax/timeline/map_unit/dynamic').setData(aa).send();h.addClass(y,'aero');var ba=i.find(y,'.fbTimelineAggregatedMapUnitSeeAllText'),ca=l.getElementPosition(ba),da=l.getElementDimensions(ba),ea=l.getElementPosition(m(p)),fa=ca.add(da.mul(.5)).sub(new l(this.THROBBER_OFFSET_X,this.THROBBER_OFFSET_Y)).sub(ea),ga=i.find(m(p),'.fbTimelineAggregatedMapUnitThrobber');k.set(ga,'left',fa.x+'px');k.set(ga,'top',fa.y+'px');h.show(ga);}.bind(this);j.listen(y,'click',z);};n(o.prototype,{THROBBER_OFFSET_X:10,THROBBER_OFFSET_Y:5});e.exports=o;});
+__d("legacy:TimelineAggregateMapUnitStatic",["TimelineAggregateMapUnitStatic"],function(a,b,c,d){a.TimelineAggregateMapUnitStatic=b('TimelineAggregateMapUnitStatic');},3);
