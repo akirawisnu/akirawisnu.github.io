@@ -1,0 +1,218 @@
+/* PAGE BACKGROUND */
+body {
+  background-image: url(http://images.friendster.com/promos/loop/fanprofile_wallpaper_volley.jpg);
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+/* GLOBAL FONTS */
+.usercontent {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  color: #3e1762;
+  /* text-transform: lowercase; */
+}
+
+/* GLOBAL LINKS */
+.usercontent a, .usercontent a:link, .usercontent a:visited, .usercontent a:hover, .usercontent a:active {
+  text-decoration: none;
+  color: #e7268b;
+}
+.usercontent a:hover {
+  text-decoration: underline;
+  color: #b30d64;
+}
+
+/* MASTER BOXES */
+.commonbox {
+  border-width: 1px;
+  border-color: #ab72c5;
+  border-style: dashed;
+  background-color: #ede0f5;
+}
+.commonbox .evenrow {   /* alternate box - Testimonials */
+  background-color: #f4e9fa;
+}
+
+/* MASTER HEADERS */
+.commonbox h1, .commonbox h2 {
+  color:#ffffff;
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  /* text-transform: lowercase; */
+  background-color: #7d3b9b;
+}
+
+/* CONTROL PANEL: BOX */
+.controlpanel {
+  border-width: 1px;
+  border-color: #ab72c5;
+  border-style: dashed;
+  background-color: #ede0f5;
+}
+
+/* CONTROL PANEL: USER PHOTO */
+.controlpanel .imgblock200 {
+  border-color: #606060;
+  border-style: solid;
+}
+
+/* CONTROL PANEL: DATA */
+.controlpanel .q {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  color: #555555;
+  /* text-transform: lowercase; */
+}
+.controlpanel .data {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  color: #555555;
+  text-transform: none;
+}
+.data a {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  color: #555555;
+  /* text-transform: lowercase; */
+  text-decoration: underline;
+}
+
+/* CONTROL PANEL: MORE ABOUT ME LINK */
+a.more {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  color: #555555;
+  /* text-transform: lowercase; */
+  text-decoration: none;
+}
+
+/* CONTROL PANEL: BUTTONS */
+#controlPanelButtons a, #controlPanelButtons a:link, #controlPanelButtons a:visited {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  color: #ede0f5;
+  border-color: #ede0f5;
+  border-style: solid;
+  background-color: #9b34ca;
+  text-decoration: none;
+}
+#controlPanelButtons a:hover {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  color: #ede0f5;
+  border-color: #ede0f5;
+  border-style: solid;
+  background-color: #bb41f3;
+  text-decoration: underline;
+}
+
+/* BOX: MORE ABOUT ME */
+.moreabout {
+  border-width: 1px;
+  border-color: #ab72c5;
+  border-style: dashed;
+  background-color: #ede0f5;
+}
+/* BOX: MY FRIENDS */
+.friends {
+  border-width: 1px;
+  border-color: #ab72c5;
+  border-style: dashed;
+  background-color: #ede0f5;
+}
+/* BOX: MY VIDEOS */
+.videos {
+  border-width: 1px;
+  border-color: #ab72c5;
+  border-style: dashed;
+  background-color: #ede0f5;
+}
+/* BOX: MY GROUPS */
+.groups {
+  border-width: 1px;
+  border-color: #ab72c5;
+  border-style: dashed;
+  background-color: #ede0f5;
+}
+/* BOX: MY TESTIMONIALS */
+.testimonials {
+  border-width: 1px;
+  border-color: #ab72c5;
+  border-style: dashed;
+  background-color: #ede0f5;
+}
+/* TESTIMONIAL COMMENTS */
+.testimonialscomments {
+  border-width: 1px;
+  border-color: #ab72c5;
+  border-style: dashed;
+  background-color: #ede0f5;
+}
+/* BOX: MY SCRAPBOOK */
+.scrapbook {
+  border-width: 1px;
+  border-color: #ab72c5;
+  border-style: dashed;
+  background-color: #ede0f5;
+}
+/* BOX: FAN OF */
+.fanof {
+  border-width: 1px;
+  border-color: #ab72c5;
+  border-style: dashed;
+  background-color: #ede0f5;
+}
+/* BOX: MY FANS */
+.myfans {
+  border-width: 1px;
+  border-color: #ab72c5;
+  border-style: dashed;
+  background-color: #ede0f5;
+}
+/* BOX: MY REVIEWS */
+.reviews {
+  border-width: 1px;
+  border-color: #ab72c5;
+  border-style: dashed;
+  background-color: #ede0f5;
+}
+/* BOX: MY BLOGS */
+.blogs {
+  border-width: 1px;
+  border-color: #ab72c5;
+  border-style: dashed;
+  background-color: #ede0f5;
+}
+/* BOX: MY BLOG REVIEWS */
+.blogsreviews {
+  border-width: 1px;
+  border-color: #ab72c5;
+  border-style: dashed;
+  background-color: #ede0f5;
+}
+
+/* MISC: TESTIMONIALS/REVIEWS TEXT */
+.data {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  color: #3e1762;
+  text-transform: ;
+}
+
+/* MISC: VIEW ALL LINKS */
+.commonbox .viewall {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  color: #222222;
+  text-transform: lowercase;
+}
+
+/* MISC: SMALL PHOTOS */
+.commonbox .imgblock75, .ir {
+  border-width: 1px;
+  border-color: ;
+  border-style: none;
+  background-color: ;
+}
+
+/* MISC: SMALL PHOTO NAMES */
+.commonbox .dr {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  color: #b70101;
+  /* text-transform: uppercase; */
+  background-color: #ede0f5;
+}
+

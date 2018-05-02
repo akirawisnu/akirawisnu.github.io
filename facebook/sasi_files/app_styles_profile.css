@@ -1,0 +1,39 @@
+/* Tab Module */
+.tabModuleTabs{position:relative;display:block;padding:0;margin:0;width:100%;overflow:hidden;background:url(http://images.friendster.com/images/greydot.gif) repeat-x bottom left}
+.tabModuleTabsRight {float: right !important;}
+.tabModuleTabs div.tab{font-size:93%;font-weight:bold;border:1px solid;padding:5px 7px;float:left;display:inline;position:relative;border-color:#C3C3C3;color:#528BC0;background-color:#F7F7F7;text-align:center;}
+.tabModuleTabsLeft div.tab{margin:0 -1px 0 0;}
+.tabModuleTabsRight div.tab{margin: 0 0 0 -1px !important;}
+.tabModuleTabs div.selected{color:#333 ;border-bottom:1px solid #fff;background-color:#fff}
+.tabModuleTabs div.selected a{color:#333}
+/*fixie\*/* html .tabModuleTabs div.plug{position:absolute;left:-1px;bottom:-1px;width:1px;height:1px;font-size:0;line-height:0;margin:0;padding:0;background:url(http://images.friendster.com/images/greydot.gif) no-repeat bottom left}/**/
+.tabModuleContent{border:1px solid #C3C3C3;border-top:0px;background-color:#fff}
+
+/* form tables */
+.formtable{font-size:93%;empty-cells:show;margin:0;padding:0}
+.formtable td{padding:6px 4px;vertical-align:middle}
+.formtable td.field{text-align:right;font-weight:bold}
+
+/* profile pic sizes */
+img.normal { width: 200px; }
+img.small { width: 100px; }
+img.thumb { width: 50px; }
+img.square { width: 50px; height: 50px; }
+
+/* header */
+h1.header { padding: 20px 20px 20px 27px; line-height: 24px; color: #333 !important; font-size: 15px !important; font-family: Arial, Helvetica, sans-serif !important; position: static !important; }
+
+/* buttons */
+.buttonBox a{font-weight:bold;height:30px !important;font-size:100% !important;color:#528BC0 !important;background-color:#F7F7F7;border:1px solid #C3C3C3 !important;padding:3px 9px !important;margin:0 10px 10px 0 !important;white-space:nowrap}
+/*fixie\*/ * html .buttonbox{padding:4px 0 !important;margin:10px 0 6px 0 !important;}
+
+/* dashboard */
+.dashboard_header { padding: 0 10px 0 10px; }
+.dashboard_header .dh_links { border-bottom:1px solid #CCCCCC; padding:0 10px 5px; }
+.dashboard_header .dh_links .dh_actions { float: left; }
+.dashboard_header .dh_links .dh_actions .divider { padding: 0 5px; border: 0; }
+.dashboard_header .dh_links .dh_help { float: right; }
+.dashboard_header .dh_titlebar { padding:0 10px 12px 10px; }
+.dashboard_header .dh_titlebar h2 { float:left; font-size:14px; padding:7px 0 7px 0; background: none !important; color: #333 !important;}
+.dashboard_header .dh_new_media_shell { float:right; margin:0 0 0 10px; padding-top: 10px; }
+.dashboard_header .dh_new_media_shell .buttonBox a { margin-right: 0 !important; height: auto !important; }

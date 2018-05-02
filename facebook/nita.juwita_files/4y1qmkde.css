@@ -1,0 +1,122 @@
+/*    HTTP Host:  b.static.ak.fbcdn.net                                        */
+/*    Generated:  September 9th 2009 11:41:58 AM PDT                           */
+/*      Machine:  10.16.139.101                                                */
+/*       Source:  Global Cache                                                 */
+/*     Location:  css/7iity1crk70g88cc.pkg.css h:4y1qmkde                      */
+/*       Locale:  nu_ll                                                        */
+/*         Path:  css/7iity1crk70g88cc.pkg.css                                 */
+
+.UIThumbPager .UIThumbPager_Hidden{display:none}
+.UIThumbPager .UIThumbPager_Loader{text-align:center;padding:32px 0}
+.UIThumbPagerControl{position:relative}
+.UIThumbPagerControl_Button{background-image:url(/rsrc.php/z9WEN/hash/6w95fo9x.gif);background-repeat:no-repeat;float:left;width:25px;height:22px}
+.UIThumbPagerControl_Button_Left{background-position:0 -83px}
+.UIThumbPagerControl_Button_Left:active{background-position:-100px -83px}
+.UIThumbPagerControl_First .UIThumbPagerControl_Button_Left,
+.UIThumbPagerControl_First .UIThumbPagerControl_Button_Left:active{cursor:default;background-position:-50px -83px}
+.UIThumbPagerControl_Button_Right{background-position:-25px -83px}
+.UIThumbPagerControl_Button_Right:active{background-position:-125px -83px}
+.UIThumbPagerControl_Last .UIThumbPagerControl_Button_Right,
+.UIThumbPagerControl_Last .UIThumbPagerControl_Button_Right:active{cursor:default;background-position:-75px -83px}
+.UIThumbPagerControl_Text{color:#999;line-height:22px;padding-left:57px;font-size:9px}
+.UIThumbPagerControl_PageNumber{color:#000;padding-right:9px}
+.UIThumbPagerControl_Checkbox{padding-top:3px}
+.UIThumbPagerControl_Checkbox input,
+.UIThumbPagerControl_Checkbox label{display:inline}
+.tokenizer{border:1px solid #8496ba;padding-right:5px}
+div.UIToken{border:none}
+.UIShareComposer .UIComposer_TextArea{border:none;font-size:13px;height:21px;margin:0;outline:none;overflow:hidden;padding:0;resize:none;vertical-align:bottom;width:100%}
+.UISharer_InterstitialContainer .title_header{margin:25px 30px 0;padding:0;border-bottom:1px solid #ddd}
+.UISharer_InterstitialContainer .title_header .title_h{background:none;padding:0 0 5px}
+.UIShareComposer .UIComposer_Pic{left:auto;top:auto}
+.UISharer_InterstitialContainer .UIShareComposer .UISharer_ComposerInputsAndStage{padding:25px 30px}
+.UISharer_InterstitialContainer .UIShareComposer .UIComposer_Content{margin:0}
+.UISharer_DialogResponse .dialog_content .dialog_body{padding:0;border:0}
+.UIShareComposer a.inline_edit{color:#000;display:block}
+.UIShareComposer a.inline_edit:hover{background:#ff9;text-decoration:none;width:auto}
+.UIShareComposer{position:relative}
+.bookmarklet .UIShareComposer{position:static}
+.UISharer_Outlined{border:1px solid #cfcfcf}
+.UIShareComposer .UIComposer_Content{padding:0}
+.UIShareComposer .UIComposer_AttachmentArea{display:block;border:0;margin:8px 20px 0 60px}
+.UIShareComposer .UIComposer_AttachmentArea_Shadow{border:0;padding:0}
+.UIShareComposer .UISharer_ComposerInputsAndStage{padding:19px 18px;margin:0 auto;max-width:620px}
+.UIShareComposer .UIShareComposer_PostingOptions{margin-bottom:6px}
+.UIShareComposer .UIShareComposer_PostingOptions a.current_option{font-weight:bold;text-decoration:none;color:#000;font-size:13px}
+.UIShareComposer .UIShareComposer_PostingOptions_Or{color:#777}
+.UIShareComposer .UIShareComposer_RecipientTokenizer{margin-bottom:6px;border:1px solid #bbb;padding-right:0;width:auto}
+.UIShareComposer .UIShareComposer_InputDL{margin:0}
+.UIShareComposer .UIShareComposer_Label{width:51px;color:#555;font-weight:bold;text-align:right;float:left;clear:left;margin:3px 9px 0 0}
+.UIShareComposer .UIShareComposer_Input{width:88%;float:left;margin:0}
+.UIShareComposer .UIShareComposer_RecipientTokenizer .placeholder{border:0;padding:0;margin:0}
+.UIShareComposer .UIComposer_InputShadow .DOMControl_placeholder{font-size:13px}
+.ie6 .UIShareComposer .UIComposer_InputArea{zoom:1}
+.UIShareComposer .UIButton{display:-moz-inline-block}
+.UIShareComposer .UIComposer_InputArea .DOMControl_placeholder{height:41px}
+.UIShareComposer.UIComposer_STATE_INPUT_FOCUSED .UIComposer_TextArea{height:41px}
+.UIShareComposer.UIComposer_STATE_INPUT_FOCUSED .Mentions_Input{min-height:41px}
+.ie6 .UIShareComposer.UIComposer_STATE_INPUT_FOCUSED .Mentions_Input{height:43px}
+.ie6 .UIShareComposer .UIComposer_PrivacyButton,
+.ie7 .UIShareComposer .UIComposer_PrivacyButton{width:44px}
+.ie7 .UIShareComposer .UIPrivacyWidget_Root .UIActionMenu_Menu{width:150px}
+.UIShareComposer .UIComposer_ButtonArea{padding:9px 8px;background:#f2f2f2;border-top:1px solid #ccc}
+.UIShareComposer .UIComposer_Buttons{float:right;width:250px;position:static;margin-right:6px}
+.UIShareComposer .UIComposer_Buttons li{margin-left:4px}
+.UIShareComposer .UIShareComposer_OptionsAndButtons{max-width:620px;margin:0 auto}
+.UIShareComposer .UIShareComposer_SharingOptions{float:left;margin-top:5px;margin-left:4px}
+.UIShareComposer .UIShareComposer_SharingOptions li{position:relative;cursor:pointer}
+.UIShareComposer .UIShareComposer_SharingOptions li a:hover{text-decoration:underline}
+.UIShareComposer .UIShareComposer_SendAsMessage .UIShareComposer_SharingOptions_Icon{position:absolute;left:0;top:1px;cursor:default}
+.UIShareComposer .UIShareComposer_PostToProfile .UIShareComposer_SharingOptions_Icon{position:absolute;left:0;top:-1px;cursor:default}
+.UIShareComposer .UIShareComposer_SharingOptions_Text{display:inline;padding-left:22px}
+.UIShareComposer .UIShareComposer_PostToProfile,
+.UIShareComposer .UIShareComposer_SendAsMessage{color:#30609c}
+.UIShareComposer .UIComposer_PrivacyCallout{right:108px}
+.UIShareComposer .hidden{display:none}
+.UIShareComposer .no_visibility{visibility:hidden}
+.UIShareComposer.STATE_SEND_AS_MESSAGE li#SEND_AS_MESSAGE,
+.UIShareComposer.STATE_SEND_AS_MESSAGE #post_recipient,
+.UIShareComposer.STATE_SEND_AS_MESSAGE .UIComposer_PrivacyButton,
+.UIShareComposer.STATE_SEND_AS_MESSAGE .UIComposer_Pic,
+.UIShareComposer.STATE_SEND_AS_MESSAGE .UIShareComposer_PostingOptions,
+.UIShareComposer.STATE_POST_TO_PROFILE li#POST_TO_PROFILE,
+.UIShareComposer.STATE_POST_TO_PROFILE #ids,
+.UIShareComposer.STATE_POST_TO_PROFILE #UIShareComposer_RecipLabel{display:none}
+.UIShareComposer.STATE_SEND_AS_MESSAGE li#POST_TO_PROFILE,
+.UIShareComposer.STATE_SEND_AS_MESSAGE #ids,
+.UIShareComposer.STATE_SEND_AS_MESSAGE #UIShareComposer_RecipLabel,
+.UIShareComposer.STATE_SEND_AS_MESSAGE #UIShareComposer_MessageLabel,
+.UIShareComposer.STATE_POST_TO_PROFILE li#SEND_AS_MESSAGE,
+.UIShareComposer.STATE_POST_TO_PROFILE #post_recipient,
+.UIShareComposer.STATE_POST_TO_PROFILE .UIComposer_PrivacyButton,
+.UIShareComposer.STATE_POST_TO_PROFILE .UIComposer_Pic,
+.UIShareComposer.STATE_POST_TO_PROFILE .UIShareComposer_PostingOptions{display:block}
+.UIShareComposer.STATE_SEND_AS_MESSAGE .UIShareComposer_Label{visibility:visible}
+.UIShareComposer.STATE_POST_TO_PROFILE .UIShareComposer_Label{visibility:hidden}
+.UIShareComposer_Hidden{display:none}
+.bookmarklet .UIShareComposer .UIComposer_ButtonArea{position:absolute;bottom:0;width:98%}
+.UISharer_BookmarkletPage #header_container{background:#6d84b4}
+.UISharer_BookmarkletPage #booklet #pageheader #homelink{max-width:620px;margin:0 auto}
+.UIShareStage_ShareContent{width:100%;float:left}
+.UIShareStage_HasImage .UIShareStage_ShareContent{width:75%}
+.UIShareStage_HasWideImage .UIShareStage_ShareContent{width:68%}
+.UIShareStage_BottomMargin{margin:0 0 10px 0;padding:0}
+.UIShareStage_NoSpacing{margin:0}
+.UIShareStage_Hidden{display:none}
+.UIShareStage_LightText{color:#666}
+.UIShareStage_Image, .UIShareStage_WideImage{float:left;padding:0 12px 12px 0}
+.UIShareStage_Image{max-width:100px}
+.ie6 .UIShareStage_Image{width:100px}
+.UIShareStage_ThumbPager{width:100px}
+.UIShareStage_WideImage{width:130px}
+.UIShareStage_ThumbPagerControl .UIThumbPagerControl_Checkbox{display:none}
+.UIShareStage_ThumbPagerControl .UIThumbPagerControl_Text{padding:0}
+.UIShareStage_ThumbPagerControl .UIThumbPagerControl_PageNumber{margin-left:8px}
+.UIShareStage_Title{font-size:12px;font-weight:bold;color:#000}
+.UIShareStage_Subtitle{font-size:11px;font-weight:normal;color:#666}
+.UIShareStage_Summary{margin-top:6px;padding:0}
+.UIShareStage_NoListStyle{list-style:none}
+.UIShareStage a.inline_edit{display:inline}
+.UIShareStage textarea.inline_edit{width:90%}
+
+#bootloader_css_7iity1crk70g88cc_pkg_css { height: 42px; }

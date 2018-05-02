@@ -1,0 +1,60 @@
+/*    HTTP Host:  static.ak.fbcdn.net                                          */
+/*    Generated:  September 9th 2009 11:41:41 AM PDT                           */
+/*      Machine:  10.16.140.103                                                */
+/*       Source:  Global Cache                                                 */
+/*     Location:  css/bdorfeimohs0w4o0.pkg.css h:7fvw39iu                      */
+/*       Locale:  nu_ll                                                        */
+/*         Path:  css/bdorfeimohs0w4o0.pkg.css                                 */
+
+.UIBeep{padding-top:3px;overflow:hidden;clear:right}
+.UIBeeper .UIBeeper_Full{margin:0}
+.UIBeeper .UIBeep{background:#e1e6ee;padding-bottom:3px;border-bottom:1px solid #bfcade;border-left:1px solid #8496bd;border-right:1px solid #8496bd}
+.UIBeeper .UIBeep_Fading{border-left:none !important;border-right:none !important}
+.UIBeeper .UIBeep_Bottom{padding-bottom:0}
+.UIBeeper .UIBeep_Top{padding-top:0}
+.UIBeep .UIBeep_Title_Outgoing{font-weight:bold}
+.UIBeep .undo_link{margin-left:6px}
+#presence #presence_notifications .UIBeep .UIBeep_Icon a.beeper_x{background:url(/rsrc.php/z4HKO/hash/2w85g3xc.gif) no-repeat;display:none}
+.UIBeeper .UIBeep .UIBeep_Intentional a.beeper_x{background:url(/rsrc.php/z9RK1/hash/5j21egxe.gif) no-repeat;display:none}
+.UIBeeper .UIBeep .UIBeep_NonIntentional a.beeper_x{float:right;height:16px;width:16px;margin-top:6px;background:url(/rsrc.php/z9RK1/hash/5j21egxe.gif) no-repeat;visibility:hidden}
+.UIBeep a.beeper_x:hover{background:url(/rsrc.php/zD93Q/hash/6aqv88j2.gif) no-repeat !important}
+.UIBeep_Selected a.beeper_x{display:block !important;visibility:visible !important;margin-left:4px}
+.UIBeeper .UIBeep_Selected{background:#cad1de}
+.UIBeep_Selected .UIBeep_Icon{margin-right:2px}
+.UIBeep_Selected .UIBeep_Intentional .UIBeep_Icon img.beeper_icon{display:none}
+.UIBeep_Fading .UIBeep_Title{display:none}
+.UIBeep .UIBeep_Title{padding:5px 0}
+.UIBeep .UIBeep_Intentional .UIBeep_Title{margin:0 9px 0 51px}
+.UIBeep .UIBeep_NonIntentional .UIBeep_Title{margin:0 20px 0 30px}
+.UIBeeper .UIBeep_Intentional .UIBeep_Title{font-size:11px;color:#000;line-height:1.3}
+.UIBeep .UIBeep_Intentional .UIBeep_Pic{float:left;font-size:1px;margin:4px 8px;text-align:center}
+.UIBeep .UIBeep_NonIntentional .UIBeep_Icon{float:left;width:20px;height:20px;text-align:center;margin:5px 5px}
+.UIBeep .UIBeep_Intentional .UIBeep_Icon{float:right;text-align:center;width:20px;height:20px;margin-right:5px;margin-top:5px}
+.UIBeep .UIBeep_Intentional .UIBeep_Pic img.beeper_thumb{height:35px;width:35px}
+.UIBeep .UIBeep_Intentional .UIBeep_Pic img.beeper_icon{height:16px;width:16px}
+.UIBeeper{width:230px;bottom:30px;position:fixed;right:15px;z-index:-1;display:none}
+.UIBeeper_Active{display:block;opacity:1.0}
+.UIBeeper img.UIBeeperCap{display:block}
+.UIBeeper_Fading_Top img.UIBeeper_Top,
+.UIBeeper_Fading_Top img.UIBeeper_Top_Selected{display:none}
+.UIBeeper_Fading_Bottom img.UIBeeper_Bottom,
+.UIBeeper_Fading_Bottom img.UIBeeper_Bottom_Selected{display:none}
+.UIBeeper .UIBeep_Bottom{border-bottom:none}
+.UIBeeper img.display_none{display:none}
+.UIBeeper .UIBeep .extra_media{margin-top:4px}
+.UIBeeper img.UIBeeper_Top{background:transparent url(/rsrc.php/z28K9/hash/wjc46okw.png) no-repeat 0 -128px;height:4px;width:230px}
+.UIBeeper img.UIBeeper_Top_Selected{background:transparent url(/rsrc.php/z28K9/hash/wjc46okw.png) no-repeat 0 -123px;height:4px;width:230px}
+.UIBeeper img.UIBeeper_Bottom{background:transparent url(/rsrc.php/z28K9/hash/wjc46okw.png) no-repeat 0 -112px;height:9px;width:230px}
+.UIBeeper img.UIBeeper_Bottom_Selected{background:transparent url(/rsrc.php/z28K9/hash/wjc46okw.png) no-repeat 0 -101px;height:9px;width:230px}
+.UIMutableFilterList_Toggle{display:block;float:left;padding-right:8px;zoom:1}
+.UIMutableFilterList_Toggle:hover{text-decoration:underline}
+.UIMutableFilterList_Arrow{background-position:-209px -88px}
+.UIMutableFilterList_Hide .UIMutableFilterList_Arrow{background-position:-221px -88px}
+.UIMutableFilterList_HiddenSection{overflow:hidden}
+.UIMutableFilterList_Separator{border-top:1px solid #b3b3b3;height:1px}
+.UIMutableFilterList_Tip{color:#666;font-size:9px;padding:5px 8px}
+.UIMutableFilterList_OrderMsg{border-top:1px solid #ccc;margin-right:3px}
+.UIFilterList_List .droppable_placeholder{background:transparent}
+.UIMutableFilterList_EmptyBox{height:30px;display:block;border:#d6d9de 2px dashed;margin-top:3px}
+
+#bootloader_css_bdorfeimohs0w4o0_pkg_css { height: 42px; }

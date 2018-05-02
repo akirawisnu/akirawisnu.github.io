@@ -1,0 +1,42 @@
+/*    HTTP Host:  b.static.ak.fbcdn.net                                        */
+/*    Generated:  September 1st 2009 9:51:22 AM PDT                            */
+/*      Machine:  10.16.139.102                                                */
+/*       Source:  Local Cache                                                  */
+/*     Location:  rsrc:4:5fu0i1g0                                              */
+/*       Locale:  nu_ll                                                        */
+/*         Path:  css/4blsy93c7em844gk.pkg.css                                 */
+
+.FriendAddingTool{min-height:30px;padding-top:10px}
+.FriendAddingTool_Checkbox{padding-left:5px;display:inline-block;padding-bottom:5px}
+.FriendAddingTool_Checkbox label{font-weight:normal;color:#000}
+.FriendAddingTool_InnerMenu{background:#eee;padding-top:3px}
+.FriendAddingTool_CreateNewList{width:142px;margin:5px}
+.FriendAddingTool_BlankState{color:#555;font-weight:bold;padding:0 6px}
+.pictures_container{padding:10px 5px 0 5px;margin-bottom:5px}
+.profile_picture .pictures_container{margin-bottom:0;padding-top:5px}
+.pictures_container .pic_container{display:block;margin:2px 3px 2px 2px;width:50px;height:50px}
+.pictures_container .name_container{float:left;text-align:center;margin-bottom:3px}
+.pictures_container a.see_all{border-bottom:1px solid #d8dfea;clear:both;display:block;float:left;line-height:2em;text-align:left;width:100%}
+.pictures_container .name span.name_link,
+.pictures_container .name a{display:block;clear:both;font-size:9px;color:#777}
+.profile_picture_condensed .pic_container{margin-right:1px}
+.UIConnectControls_Photo{display:block;float:left;width:100px;margin-right:10px}
+.UIConnect_Dialog .UIConnectControls_Body{float:left;width:313px}
+.UIConnectControls_Body em.ConfirmationMessage{color:#333;display:block;font-weight:normal;font-style:normal;padding:0 0 5px}
+.UIConnectControls_ListOption{padding:2px 0 5px}
+.UIConnectControls .FriendAddingTool{padding:0;margin:4px 0 0 0}
+.UIConnectControls_ListOption .inputcheckbox{margin-left:0}
+.UIConnectControls_ListOption label{color:#000;font-weight:normal;line-height:15px}
+.UIConnectControls_ListOption label span{color:#777;margin-left:6px}
+.UIConnect_Dialog .UIConnectControls_ListOption label span{display:block;margin-left:16px}
+.UIConnectControls_AddMessageLink{background:transparent url(/rsrc.php/z7I11/hash/cjz9jv9z.gif) no-repeat left 1px;margin-left:1px;padding-left:15px}
+.UIConnectControls_Message{padding:6px 0 4px}
+.UIConnectControls_Message textarea{margin-top:2px;width:305px}
+.UIConnectControls_Captcha #error{margin-bottom:8px}
+.UIConnectControls_Karma{margin:20px 10px 10px}
+.UIConnectControls_Karma h3{margin-bottom:10px}
+.UIConnect_Dialog .error h2 span,
+.UIConnect_Dialog .status h2 span{padding:0}
+.UIConnect_Dialog .status{margin-bottom:0}
+
+#bootloader_css_4blsy93c7em844gk_pkg_css { height: 42px; }

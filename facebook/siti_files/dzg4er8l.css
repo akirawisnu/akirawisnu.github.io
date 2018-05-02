@@ -1,0 +1,84 @@
+/*    HTTP Host:  static.ak.fbcdn.net                                          */
+/*    Generated:  December 17th 2009 9:55:05 PM PST                            */
+/*      Machine:  10.16.139.105                                                */
+/*       Source:  Global Cache                                                 */
+/*     Location:  css/5n5fnu2ajhgkk8cg.pkg.css h:dzg4er8l                      */
+/*       Locale:  nu_ll                                                        */
+/*         Path:  css/5n5fnu2ajhgkk8cg.pkg.css                                 */
+
+.photo_table{margin:0 0 20px 0;padding:0;border:1px solid #bbb;background:#f7f7f7;overflow:hidden;position:relative;width:750px}
+.photos_tab .has_extra .photo_table{background:none;border:none}
+.photos_tab .has_extra .photo_table table tr,
+.photos_tab .has_extra .photo_table table td{vertical-align:top}
+.photos_tab .has_extra .photo_table .main_content{background:#f7f7f7;border:1px solid #bbb}
+.photos_tab .has_extra .photo_table #main_album_content{overflow:hidden;position:relative}
+.photos_tab .has_extra .photo_table .extra_content{background:#edeff4;border:solid #d8dfea 1px;border-left:none;padding-left:1px;width:150px}
+.photos_tab .has_extra .content_wrapper{float:none}
+.photo_table .content_wrapper{overflow:hidden;margin:0 2px;padding:0}
+.photo_table .content_wrapper .photo_cell{text-align:center;float:left;width:145px}
+.photos_tab .has_extra .photo_table,
+.photos_tab .has_extra .photo_table table{width:auto}
+.photos_tab .has_extra .photo_table .main_content,
+.photos_tab .has_extra .photo_table #main_album_content{width:598px}
+.photos_tab .has_extra_1 .photo_table .main_content,
+.photos_tab .has_extra_1 .photo_table #main_album_content{width:154px}
+.photos_tab .has_extra_2 .photo_table .main_content,
+.photos_tab .has_extra_2 .photo_table #main_album_content{width:302px}
+.photos_tab .has_extra_3 .photo_table .main_content,
+.photos_tab .has_extra_3 .photo_table #main_album_content{width:450px}
+.photo_table .content_wrapper{width:746px}
+.photos_tab .has_extra .content_wrapper{width:596px}
+.photos_tab .has_extra .photos_tab_header{width:584px}
+.photos_tab .photos_blank_state{width:400px;margin:50px auto 0 auto}
+.photos_tab .photos_viewer_blank_state{font-size:15px;font-weight:bold;padding:0 0 0 25px;background:url(/rsrc.php/z5NDM/hash/9mjaqd77.gif) no-repeat -16px}
+.photos_tab .photos_button_container{padding:10px 0 100px 0;float:left;left:50%;position:relative
+}
+.photos_tab .photos_button_container_center{float:left;left:-50%;position:relative}
+.photo_table .content_wrapper .photo_cell span{display:inline-block;vertical-align:middle;height:100%;width:1px}
+.photo_table .content_wrapper .photo_cell a{display:table-cell;text-align:center;width:150px;vertical-align:middle}
+.photo_table .album_cell{width:133px;min-height:133px;float:left;padding:8px}
+.photo_table .album_cell .album_thumb{width:133px;height:133px;margin-bottom:5px;position:relative;overflow:hidden;background-position:center center;background-repeat:no-repeat}
+.photo_table .album_cell .album_thumb.profile_pic{background-position:center top}
+.photo_table .album_selector .album_cell .album_thumb{border:3px solid transparent}
+.photo_table .album_selector .album_cell .selected_album{border:3px solid blue}
+.photo_table .album_cell .album_thumb .album_link{width:133px;height:133px;z-index:1;display:block}
+.photo_table .album_cell .album_thumb .album_link:hover{text-decoration:none}
+.photo_table .album_cell .album_thumb .edit_link{display:none;position:absolute;background:url(/rsrc.php/z4BZ9/hash/d0p9bnvk.gif) no-repeat 0 top;border-left:1px solid #f7f7f7;border-bottom:1px solid #f7f7f7;height:18px;width:18px;top:0;right:0;z-index:2}
+.photo_table .album_cell .mouseover .edit_link{display:block}
+.photo_table .album_cell .mouseover .edit_link:hover{background-position:left -18px}
+.photo_table .album_cell .album_title{dispaly:block;font-weight:bold}
+.photo_table .content_wrapper .video_cell{text-align:center;padding:0 0;float:left;width:186px;height:193px}
+.photo_table .content_wrapper .video_cell .video{display:table-cell;text-align:center;width:186px;height:193px;vertical-align:middle}
+.photo_table .content_wrapper .video_cell .video span{display:inline-block;vertical-align:middle;height:100%;width:1px}
+.photo_table .content_wrapper .video_cell span{display:inline-block;vertical-align:middle;height:100%;width:1px}
+.video_cell .video table{margin:0 auto}
+.video_cell .video .video_wrapper{border:solid 2px #000;position:relative}
+.video_cell .video img{display:block}
+.video_cell .video .video_info{padding:1px 5px 2px 4px;background:#000;color:#fff;font-family:"lucida grande",tahoma,verdana,sans-serif}
+.video_cell .video .video_length{float:right}
+.video_cell .video .video_play_button{padding-left:2px;float:left}
+.photo_table .video_cell .video_title{display:block}
+.photo_table .video_cell .edit_link{display:none;position:absolute;background:url(/rsrc.php/z4BZ9/hash/d0p9bnvk.gif) no-repeat right top;border-left:1px solid #000;border-bottom:1px solid #000;height:18px;width:18px;top:0;right:0}
+.photo_table .video_cell .mouseover .edit_link{display:block}
+.photo_table .video_cell .mouseover .edit_link:hover{background-position:right -18px;text-decoration:none}
+.album_cell .photo_count,
+.photos_tab .photos_tab_header span.caption{font-size:11px;font-weight:normal;color:#6f6f6f;margin:3px 0}
+.photos_tab .photos_tab_header .photos_header_breadcrumbs_and_caption{margin-bottom:4px}
+.photos_tab .photos_tab_header .photos_header_actions_and_pager{margin-bottom:4px}
+.photos_tab .photos_tab_header .photos_header_actions{float:left}
+.photos_tab .photos_tab_header h3.photos_header_breadcrumbs{display:inline}
+.photos_tab .photos_tab_header span.caption{padding-left:3px}
+.photos_tab div.blank_state{color:#6f6f6f;font-size:13px;height:75px;text-align:center;vertical-align:50%;line-height:75px}
+.profile .photos_tab{padding:20px 0}
+.profile .photos_tab .photos_tab_header{overflow:hidden;padding:0 10px}
+.profile .photos_tab .photos_tab_header #photos_by_wrapper_pager{float:right}
+.profile .photos_tab .photos_tab_header .photos_header_pager{float:right}
+.profile .photos_tab .photos_tab_header .pagerpro{display:block;font-size:11px;font-weight:normal;float:right}
+.profile .photos_tab .photos_tab_header .pagerpro_container{padding:0;width:auto}
+.photos_tab .creation_buttons{padding:0 0 9px 0}
+.tab_content .creation_buttons{overflow:hidden;margin-top:-10px}
+.tab_content .notes_button{float:right;margin-top:0;padding-top:20px;padding-right:5px}
+.tab_content .creation_buttons .dh_toolbar_buttons,
+.tab_content .creation_buttons .dh_new_media{float:right}
+
+#bootloader_css_5n5fnu2ajhgkk8cg_pkg_css { height: 42px; }

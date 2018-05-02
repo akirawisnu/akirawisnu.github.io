@@ -1,0 +1,21 @@
+/*    HTTP Host:  b.static.ak.fbcdn.net                                        */
+/*    Generated:  August 31st 2009 8:43:23 AM PDT                              */
+/*      Machine:  10.16.140.108                                                */
+/*       Source:  Global Cache                                                 */
+/*     Location:  css/field_set.css h:a7c3dcax                                 */
+/*       Locale:  nu_ll                                                        */
+/*         Path:  css/field_set.css                                            */
+
+.field_set_wrapper h2.field_title{background-color:#e9e9e9;color:#888;font-size:11px;font-weight:bold;padding:4px 10px 3px 10px}
+.field_set_wrapper h3.field_title{color:#888;font-size:11px;font-weight:bold;padding:4px 10px 3px 0;border-bottom:1px solid #ccc;margin:0 10px}
+.field_set_wrapper dl.field_set{margin:10px}
+.field_set_wrapper dl.field_set dt.field_set_field{width:150px;float:left;clear:left;color:#808080;font-weight:bold;text-align:right;font-size:11px;margin:0 10px 10px 0;padding-top:5px}
+.field_set_wrapper_small dl.field_set dt.field_set_field{width:100px}
+.field_set_wrapper dl.field_set dt.field_set_field span.field_explanation{color:#888;font-size:9px;display:block}
+.field_set_wrapper dl.field_set dd.field_set_field{width:400px;margin:0 0 10px 0;float:left}
+.field_set_wrapper_small dl.field_set dd.field_set_field{width:300px}
+.field_set_wrapper dl.field_set span.field_explanation{display:block;margin-top:3px;font-size:9px;color:#888}
+.field_set_buttons{width:560px;text-align:center;margin:0 0 10px 0}
+.field_set_buttons_small{width:410px}
+
+#bootloader_css_field_set_css { height: 42px; }

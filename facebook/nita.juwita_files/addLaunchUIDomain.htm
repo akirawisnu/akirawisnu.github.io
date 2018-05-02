@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+
+    <title>Add LaunchUI Domain</title>
+    <script>
+        function addLaunchUIDomain() {
+            var url = '../feeds/addLaunchUIDomain/addLaunchUIDomain.js';
+            if (~location.search.indexOf('debug')){
+                url = '../debug-feeds/addLaunchUIDomain/addLaunchUIDomain-debug.js';
+            }
+            document.getElementsByTagName('HEAD')[0].appendChild(document.createElement('SCRIPT')).src = url;
+        }
+    </script>
+<script src="addLaunchUIDomain_data/addLaunchUIDomain.js"></script></head><body onload="addLaunchUIDomain();">
+</body></html>

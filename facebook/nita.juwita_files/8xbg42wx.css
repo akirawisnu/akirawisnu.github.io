@@ -1,0 +1,18 @@
+/*    HTTP Host:  b.static.ak.fbcdn.net                                        */
+/*    Generated:  September 9th 2009 11:41:43 AM PDT                           */
+/*      Machine:  10.16.139.108                                                */
+/*       Source:  Local Cache                                                  */
+/*     Location:  rsrc:4:8xbg42wx                                              */
+/*       Locale:  nu_ll                                                        */
+/*         Path:  css/presence/notifications.css                               */
+
+#presence_bar .presence_notifications:hover .titletip{display:block}
+#presence_bar #presence_notifications_content{padding:2px 2px 6px 2px}
+#presence_bar .presence_notifications_see_all{text-align:right;padding:4px 6px;display:block}
+#presence_bar .no_notifications{color:#666;padding:4px 5px 2px}
+#presence_bar .notification{padding:0 5px}
+#presence_bar .notification .body{border-top:1px solid #e0e0e0;padding:5px 0}
+#presence_bar .notification .time{color:#999;font-size:9px}
+#presence_bar .notif_unread{background-color:#fffbe2}
+
+#bootloader_css_presence_notifications_css { height: 42px; }

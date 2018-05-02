@@ -1,0 +1,130 @@
+<!--/*--><root><![CDATA[<!--*/-->
+
+/* center nav area*/
+#container .banner_ad { width: 800px; text-align: center; margin: 3px auto; }
+.banner_ad_fix { width:100%; text-align: center; padding: 3px 0; }
+.banner_ad { width: 728px !important; height:90px; text-align: center; margin: 0 auto; }
+
+/* wrapper div around entire navigation */
+#navigation { width: auto; height: auto; position:relative; margin:0; padding:0; font-family: arial,helvetica,sans-serif; line-height: 1.0em; z-index: 50000 !important; }
+#navLang {font-size: 11px; text-align: right; margin: 5px 0 0;}
+#navLang select{font-size: 11px;color:#555}
+.beta {position:relative; color: #f26649; top: -3px;left:1px;font-size:10px}
+
+#navBg { position: absolute; width: 100%; height: 81px; }
+#navBar { position: relative; }
+
+/* logo div floats left */
+#logo img { height: 18px; }
+
+/* subnav and search div floats right and contains the subnav and search divs */
+#subnav_search { text-align: right; margin-right: 0; }
+#subnav { font-size: 11px; text-align:right; color: #757575; padding: 0; }
+#subnav a, #subnav a:visited { color: #086989; font-weight:bold; text-decoration: none; }
+#subnav a:hover { text-decoration: underline; }
+#subnav a.subnavRed, #subnav a.subnavRed:visited { color: #FF0000; font-weight:bold; text-decoration: none; }
+#subnav a.subnavRed:hover { text-decoration: underline; }
+#search { text-align: right; z-index:5000; padding:0; font-size: 12px; color: #ffffff; white-space: nowrap !important; }
+#search form { color: #555 !important; font-weight: normal !important; font-size:12px; margin:0; padding:0; text-align:right; }
+.globnav_inputbtn { margin:0px 0px 1px 0px; height: 19px; width: 19px; font-size: 11px; }
+.globnav_textbox { margin: 0px 1px 4px 5px; width: 140px; color: #999; font-size: 11px; }
+.globnav_pipe { font-size:12px !important; font-weight:bold; margin: 0 1px;}
+
+a#websearchtoggle, a#friendstersearchtoggle { color: #528BC0 !important; cursor: pointer !important;}
+a:hover#websearchtoggle, a:hover#friendstersearchtoggle { color: #ff4000 !important; }
+
+#mainnav { background: #3779AD url(http://images.friendster.com/images/navbar2_tile.gif) repeat-x; height: 20px; position: relative; /* fix for peekaboo bug in IE */} 
+#mainnav ul{ margin: 0; padding: 0; list-style-type: none; line-height: 20px; z-index: 20000; position: relative; /* fix for peekaboo bug in IE */ }
+
+/*Top level list items*/
+#mainnav ul li{ display: inline; float: left; /* fix for opera */ text-align: left; position: relative; }
+
+/*Top level menu link items style*/
+#mainnav ul li a{ display: inline; padding: 0 19px 0 4px; text-decoration: none !important; color: #fff; font-size: 12px !important; line-height: 20px; font-weight: bold;
+white-space: nowrap !important; }
+#mainnav ul li span.noSubMenu a {padding-right:8px !important}
+
+/* ie negative filtering */
+html>body #mainnav ul li a { padding: 2px 18px 3px 5px; }
+
+#mainnav ul li a:hover{ color: #fff; background-color: #4A93DD; text-decoration: none !important; }
+    
+/*1st sub level menu*/
+#mainnav ul li ul{ left: 0; position: absolute; top: 20px; /* value not set by javascript */ display: block; visibility: hidden; padding: 5px !important; background-color: #4A93DD; width: 150px !important; /*width of sub menu levels*/ }
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+#mainnav ul li ul li{ display: list-item; float: none; border-bottom: 1px dotted #fff; padding: 0 !important; }
+
+#mainnav ul li ul li.sublink_top { border-top: 1px dotted #fff; }
+
+/* Sub level menu links style */
+#mainnav ul li ul li a{ display: block !important; color: #fff; padding: 1px 0 1px 5px !important; background-color: #4A93DD; white-space: normal !important; }
+
+#mainnav ul li ul li a:hover{ color: #fff; background-color: #6DA4DB; text-decoration: none !important; }
+
+/*Background image for top level menu list links */
+#mainnav .mainfoldericon{ background: url(http://images.friendster.com/images/arrow_down.gif) no-repeat center right; }
+    
+/* Holly Hack for IE \*/
+* html #mainnav ul li { float: left; height: 1%; }
+* html #mainnav ul li a { height: 1%; }
+* html #mainnav ul li ul li { float: left;}
+
+.primary_links { float: left;}
+.secondary_links { float: right; line-height: 20px; text-align: right; }
+.secondary_links a, .secondary_links a:link, .secondary_links a:visited, .secondary_links a:active { color: #fff; padding-right:16px; font-size: 12px !important; font-weight: bold; }
+.secondary_links a.lastLink{padding-right:6px}
+.secondary_links .splLink,.splLink .lt,.splLink .ct,.splLink .rt{float:left;height:30px;}
+.secondary_links .splLink{margin:-3px 12px -7px 0;position:relative}
+.splLink .lt{width:4px;background:url(http://images.friendster.com/images/nav_ff_lt.gif) no-repeat}
+.splLink .ct{line-height:26px;padding:0 5px;background:url(http://images.friendster.com/images/nav_ff_c.gif) no-repeat center;}
+.secondary_links .splLink .ct a{color:#726b12;font-size:14px !important;padding-right:0}
+.splLink .rt{width:4px;background:url(http://images.friendster.com/images/nav_ff_rt.gif) no-repeat}
+.superscript { color:#fff200;text-decoration:none; padding-right: 12px; position: relative; bottom: 0.5em; font-size: 0.8em; }
+
+/* navdivider div to get the horizontal lines between the orange and grey bars without having to deal with the boxmodel since the orange and grey bars require specific heights */
+#navdivider { width:auto; margin:0; padding:0; font-size:0; line-height:0; border:0}
+
+/* marketing_bg */
+#marketing_bg { width: auto; height: 18px;}
+#marketing {line-height: 18px; text-align: center}
+#marketing a, #marketing a:hover {color:#d36317}
+#marketing .featspons { color: #666 !important; font-size: 10px !important; }
+
+/* TRUE */
+.newicon { height: 10px; margin-left: 3px; }
+.newicon img { margin-bottom: 4px; }
+#navrow .newicon img { margin-bottom: 4px !important; margin-bottom: 8px; }
+
+/* - - FOOTER - - */
+  #footer_container { width: 850px; margin: 0 auto; font-family: arial,helvetica,sans-serif; line-height: 1.0em; }
+  #footer { font-size: 10px; line-height: 1em; position: relative; margin: 10px auto; text-align: center; color: #666666; }
+  #footer a { font-size: 10px; color: #666666; }
+/* - - END FOOTER - - */
+
+/*- - GOOGLE SEARCH - -*/
+
+/* Google Search Bar */
+
+#nav_search { width: 319px; height: 53px; display: inline-block; margin: 0 auto 0 30px; background: url(http://images.friendster.com/images/searchbarbg.png) 0 0 no-repeat; }
+
+head:first-child+body #search { display: block !important; }
+
+head:first-child+body #nav_search select { width: 131px !important; padding: 0; }
+
+#nav_search span { display: block; text-align: center; margin: 0 0 5px 0; padding: 5px 0 0 0; color: #ff4000; font-weight:bold; font-size: 12px; }
+
+#surfer{padding:2px 2px 0 0; float: right; width: 370px;}
+#surfer a,#surfer a:hover {text-decoration: none;}
+#surfer .rightCorner { float:right; background:url(http://images.friendster.com/images/surfer/surferRight.gif) no-repeat; width:4px; height:29px; }
+#surfer .buttons{ float:right; background:url(http://images.friendster.com/images/surfer/surferBg.gif) repeat-x; height:29px; padding: 0 0 0 4px; line-height: 29px; font-weight:bold; }
+#surfer #surferNxt, #surfer #surferPrv { float: left; padding: 0 5px; }
+#surfer .btnBreaker { float:left; background: #aaa; height:19px; width:1px; margin: 5px 0; }
+
+.backBtnDisb a, .backBtnDisb a:link, .backBtnDisb a:active, .backBtnDisb a:hover, .backBtnDisb a:visited, .nxtBtnDisb a, .nxtBtnDisb a:link, .nxtBtnDisb a:active, .nxtBtnDisb a:hover, .nxtBtnDisb a:visited { color: #999; }
+
+#surfer .selectBox { float:right; background:url(http://images.friendster.com/images/surfer/surferBg.gif) repeat-x; width:143px; height:29px; }
+#surfer .selectBox SELECT { margin: 3px 0 0 3px; width:140px; }
+#surfer .surferTag { float:right; background:url(http://images.friendster.com/images/surfer/theSurfer.png) no-repeat; width:61px; height:29px; }
+
+<!--/*-->]]></root><!--*/-->

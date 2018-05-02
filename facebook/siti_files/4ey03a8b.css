@@ -1,0 +1,41 @@
+/*    HTTP Host:  b.static.ak.fbcdn.net                                        */
+/*    Generated:  December 21st 2009 1:30:04 PM PST                            */
+/*      Machine:  10.16.139.101                                                */
+/*       Source:  Global Cache                                                 */
+/*     Location:  css/273cstjyu9usccs0.pkg.css h:4ey03a8b                      */
+/*       Locale:  nu_ll                                                        */
+/*         Path:  css/273cstjyu9usccs0.pkg.css                                 */
+
+.beta_prefs{float:left;margin:5px 0 0 0;vertical-align:middle}
+.beta_prefs_option{width:60px;padding:4px 3px}
+#presence #presence_beta_prefs_tab{border-right:1px solid #b5b5b5;padding-right:4px}
+#presence_beta_prefs_content{padding:4px}
+.production_to_latest_link,
+.latest_to_production_link{overflow:hidden;display:block;position:absolute;z-index:1000;top:0;left:0}
+.beta_prefs_control{overflow:hidden;display:block;position:absolute;z-index:1000;top:200px;left:0}
+.TreeView{max-height:12em;overflow:auto;padding:0;width:auto}
+.TreeView ul{padding-left:0;width:auto}
+.TreeView li{list-style-position:outside;list-style-type:none;padding-top:1px;padding-bottom:1px}
+.TreeView ul ul{display:none;padding-left:16px}
+.TreeView li.open > ul{display:block}
+.TreeView li input.toggle_button{background-position:50% 50%;border:none;display:block;float:left;height:17px;text-indent:-1000px;width:20px}
+.TreeView .node_view{padding-bottom:4px}
+.TreeView li > .node_view > input.toggle_button{background:no-repeat transparent url(/rsrc.php/z6J1X/hash/46yzilxz.gif)}
+.TreeView li.open > .node_view > input.toggle_button{background:no-repeat transparent url(/rsrc.php/zTG5P/hash/2kkl8sjl.gif)}
+.TreeView li.leaf{}
+.TreeView li.leaf > .node_view{}
+.TreeView li.leaf > .node_view > input.toggle_button{background-image:url(/rsrc.php/zCX2K/hash/24fot0bv.gif);background-position:9px 5px;cursor:default}
+.TreeView li input.remove_button{background:no-repeat transparent url(/rsrc.php/z9RK1/hash/5j21egxe.gif);background-position:50% 50%;border:none;height:20px;margin:4px;text-indent:-1000px;width:13px}
+.UILocationFinder_Location{border-top:1px solid #dfdfdf}
+.UILocationFinder_LocationField{background:url(/rsrc.php/z1V2B/hash/apfsevhg.png) no-repeat -1px -286px;color:#666;padding:4px 0 2px 18px;display:none}
+.UILocationFinder_LocationDetailsField{margin-right:10px}
+.UIPlaceSelector_Place{border-bottom:1px solid #ccc;cursor:pointer;height:35px;padding:5px 5px 4px}
+.UIPlaceSelector_Place:hover{background-color:#6d84b4;color:#fff}
+.UIPlaceSelector_PlaceName{font-size:13px;font-weight:bold}
+.datatable th a.sortheader{text-decoration:none;border-bottom:none}
+.datatable th a.sortheader:hover{border-bottom:none}
+.invisible{visibility:hidden}
+i.img{_overflow:hidden}
+.ff2 i.img{display:-moz-inline-stack;vertical-align:top}
+
+#bootloader_css_273cstjyu9usccs0_pkg_css { height: 42px; }

@@ -1,0 +1,32 @@
+/*    HTTP Host:  b.static.ak.fbcdn.net                                        */
+/*    Generated:  September 8th 2009 7:44:02 AM PDT                            */
+/*      Machine:  10.16.139.103                                                */
+/*       Source:  Global Cache                                                 */
+/*     Location:  css/gigaboxx/MessageComposer.css h:5txzl3hy                  */
+/*       Locale:  nu_ll                                                        */
+/*         Path:  css/gigaboxx/MessageComposer.css                             */
+
+.ie7 .gigaboxx_composer .field_set_wrapper,
+.ie8 .gigaboxx_composer .field_set_wrapper{padding-bottom:5px}
+.gigaboxx_composer .field_set_wrapper dl.gigaboxx_field_set{overflow:hidden;display:block;margin:0}
+.gigaboxx_composer .field_set_wrapper dl.gigaboxx_field_set
+dt.gigaboxx_field{width:55px;margin:0 5px 5px 0;display:block}
+.gigaboxx_composer .field_set_wrapper dl.gigaboxx_field_set
+dd.gigaboxx_field{width:330px;margin:0 0 5px;display:block}
+.gigaboxx_composer dd.gigaboxx_field .gigaboxx_noinput{color:#333;margin-top:5px;display:inline-block}
+.gigaboxx_composer dd.gigaboxx_field .inputtext{width:430px;border:1px solid #8496ba;padding:4px}
+.gigaboxx_composer dd.gigaboxx_field .tokenizer{width:430px}
+.gigaboxx_composer .error{margin-bottom:10px}
+.gigaboxx_composer_message_label{color:#808080;float:left;font-weight:bold;margin-top:3px;text-align:right;width:55px}
+.gigaboxx_composer_reply_label{width:50px}
+.message_pane .gigaboxx_composer .MessageComposer{padding-top:8px}
+.MessageComposer .UIComposer_Content{padding:0;margin-left:60px}
+.gigaboxx_composer .MessageComposer .UIComposer_TextArea{height:50px}
+.MessageComposer .UIComposer_InputArea{border:1px solid #8496ba;zoom:1}
+.MessageComposer .UIComposer_CancelButton{margin-left:5px}
+.MessageComposer .UIComposer_InputShadow{border:none}
+.MessageComposer_Reply{border-top:solid 1px #b3b3b3}
+.MessageComposer_Reply dd.gigaboxx_field .tokenizer{width:514px}
+div.pop_dialog .gigaboxx_composer .UIComposer .UIComposer_ButtonArea{display:block}
+
+#bootloader_css_gigaboxx_MessageComposer_css { height: 42px; }

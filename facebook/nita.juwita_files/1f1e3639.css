@@ -1,0 +1,69 @@
+/*    HTTP Host:  static.ak.fbcdn.net                                          */
+/*    Generated:  September 8th 2009 7:35:53 AM PDT                            */
+/*      Machine:  10.16.139.104                                                */
+/*       Source:  Local Cache                                                  */
+/*     Location:  rsrc:4:1f1e3639                                              */
+/*       Locale:  nu_ll                                                        */
+/*         Path:  css/8nrefbbjcpkw8cks.pkg.css                                 */
+
+.friend_guesses.list{background:#f3f7ff;padding:2px 0 4px}
+.friend_guesses.list h2{margin:0;padding:6px 12px 5px}
+.friend_guesses.list p{margin:2px 0 0 0;padding:5px 12px 5px}
+.friend_guesses.list .fguess{background:#fff;border:solid #ccc 1px;margin:8px;padding:8px}
+.friend_guesses.list .fguess img{float:left;margin-right:8px}
+.friend_guesses.list .fguess .fg_name{font-size:11px;font-weight:bold}
+.friend_guesses.list .fguess .fg_mutual{display:block;margin-top:4px}
+.friend_guesses.list .fguess .inactive{color:#666}
+.friend_grid .friend_grid_row{margin:10px 0 5px}
+.friend_grid .friend_grid_col{margin-left:10px;float:left;width:174px;overflow:hidden}
+.friend_grid .friend_grid_col .fg_img{float:left;width:50px;margin:0;padding:0}
+.friend_grid .friend_grid_col .fg_name{font-size:11px;font-weight:bold;padding-bottom:4px}
+.friend_grid .friend_grid_col .fg_action_add .inactive{color:#666}
+.friend_grid .friend_grid_col .fg_action_hide{display:block;width:11px;height:13px;margin:1px 3px 0 6px;text-indent:-5000px;/* @noflip */
+background:transparent url(/rsrc.php/z28K9/hash/wjc46okw.png) no-repeat -869px -65px}
+.friend_grid .friend_grid_col .fg_action_hide:hover{/* @noflip */
+background-position:-857px -65px;background-color:#3b5998;text-decoration:none}
+.pymk_participants_not_expanded .pymk_participants_long,
+.pymk_participants_expanded .pymk_participants_short{display:none}
+.UITitledBox{overflow:hidden}
+.UITitledBox_Top{border-bottom:1px solid #ccc;overflow:hidden;padding:0 0 3px;vertical-align:bottom}
+.UITitledBox_TitleBar .UITitle{float:left}
+.UITitledBox_SubTitle{float:right}
+div.UIHomeBox{margin-bottom:20px}
+.UIHomeBox .UITitledBox_Top{padding:0 0 4px}
+.UIHomeBox .UITitledBox_Content{margin-top:6px}
+.UIHomeBox_More{float:right}
+.UIHomeBox_Loading{float:right;display:none}
+.UIHomeBox_Next{padding-left:4px}
+.UIHomeBox_Previous{padding-right:4px}
+.UIHomeBox_Initial .UIHomeBox_Previous{display:none}
+.UIRequestBox_Request{display:block;margin-top:4px}
+.UIRequestBox_RequestFirst{margin-top:-1px}
+.UIRequestBox_Short .UIRequestBox_Request{float:left;width:125px}
+.UIRequestBox_Short .UIRequestBox_RequestOdd{clear:left}
+.UIRequestBox_Short .UIRequestBox_RequestSecond{margin-top:-1px}
+.fbpage_edit_header{padding:0;margin:0;height:31px;border:0;margin:-7px 0 19px;border-bottom:1px solid #ccc;background:#fff}
+.pages_edit .fbpage_edit_header{margin:0}
+.icon_dock{margin:0;padding:0;width:300px;float:right}
+.icon_dock .icon_dock_container{margin:0;padding:0;padding-top:8px;float:right;z-index:30}
+.icon_dock .edit_link{padding-right:8px;padding-top:10px;font-weight:bold;color:#666;display:block;margin:0;float:right}
+.icon_dock a{padding:0;padding-left:5px;padding-top:8px;margin:0 0 0 0}
+.edit_app_switcher{margin:0 0;padding-top:6px}
+.edit_app_switcher .app_switcher_button .name{padding:2px 0 2px 6px}
+.edit_app_switcher .app_switcher_menu{width:160px}
+.edit_app_switcher .app_switcher_menu .name{width:105px;text-align:left}
+.edit_app_switcher .app_switcher_button .arrow{padding:2px 0 1px}
+.fbpage_edit_header .left_header{float:left;font-size:11px;font-weight:bold;overflow:hidden;padding:7px 0 2px;white-space:nowrap;width:250px}
+.fbpage_edit_header .left_header_text{padding-left:5px;position:relative;top:-4px}
+.fbpage_edit_header div.left_header .edit_link{font-weight:normal;padding-left:4px;color:#ccc}
+.fbpage_edit_header div.left_header .edit_link a{color:#6d84b4}
+.pages_viewer_settings{margin:0;padding:0}
+.pages_viewer_settings .profile_pic{width:100px;padding:0;float:left;padding-right:10px}
+.pages_viewer_settings .checkbox_table{margin:10px 0;font-weight:normal;color:#000}
+.pages_viewer_settings .checkbox_table .checkbox{vertical-align:top}
+.pages_viewer_settings .checkbox_table label{font-weight:normal;color:#000}
+.pages_viewer_settings .checkbox_table label .fbpage_profile_viewer_settings_subtext{font-size:9px;color:#808080}
+.pages_viewer_settings .privacy_explanation{font-size:9px;color:#808080}
+.fan_status_inactive{background-color:#fffccc;color:#666;margin:0;padding:0 0 0 3px;line-height:18px}
+
+#bootloader_css_8nrefbbjcpkw8cks_pkg_css { height: 42px; }
