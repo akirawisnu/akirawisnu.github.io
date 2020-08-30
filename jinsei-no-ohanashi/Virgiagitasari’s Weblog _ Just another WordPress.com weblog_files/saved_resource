@@ -1,0 +1,9 @@
+// Version request mismatch
+    
+(function() {
+  var vmiss = document.createElement("img");
+  vmiss.src = "http://shots.snap.com/vmis.php?vcfg=6.43" +
+              "&vjs=6.74";
+  vmiss.style.positions="absolute";
+  vmiss.style.visibility="hidden";
+})();
