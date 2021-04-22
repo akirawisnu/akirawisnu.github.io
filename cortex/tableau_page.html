@@ -24,7 +24,14 @@
 </head>
 
 <body onload="initViz();">
-    <div id="vizContainer" style="width:1366px; height:768px;"></div>
+    <div id="vizContainer" style="width:800px; height:700px; overflow:auto;"></div>
+    <div id="controls" style="padding:20px;">
+        <form id="resizeForm">
+            <input type="text" id="resizeWidth" placeholder="Width">
+            <input type="text" id="resizeHeight" placeholder="Height">
+            <button type="button" onClick="vizResize();">Resize</button>
+        </form>
+    </div>
 </body>
 
 </html>
