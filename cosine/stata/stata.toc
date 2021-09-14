@@ -1,3 +1,0 @@
-v 1
-d Personal Github Page of Akirawisnu (wisnu_harto@yahoo.com)
-p cosinematch rapid fuzzy match in Stata
