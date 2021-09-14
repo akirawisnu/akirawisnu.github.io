@@ -69,6 +69,31 @@ body {
 		</p>
 		
 		<p class="bio">
+		Code Example:
+		</p>
+		<p class="InputCode" style="color: orange;">
+		clear<br>
+		clear matrix<br>
+		set more off<br>
+		<br>
+		<br>
+		local x "C:/Users/sjmau/OneDrive/0_A33/WLF/data/baseline/sbd_loc.dta"<br>
+		local y "C:/Users/sjmau/OneDrive/0_A33/WLF/data/baseline/sch_name.dta"<br>
+		local var "sch_name"<br>
+		<br>
+		<br>
+		cosinematch , xdata("`x'") ydata("`y'") xvar("`var'") yvar("`var'") minscore(0.8)		
+		</p>
+		
+		<p class="bio">
+		Note:<br>
+		Currently, I still doing some unit testing and improvement to the .ado file. One good suggestion if 
+		this command is not working (probably due to Pandas error in Python), you should switch from cosinematch to cosinematch_essential command. <br>
+		<br>
+		This will give you essential variable from the fuzzy match (left_side, right_side, and similarity); Instead of the full one with original data. 
+		</p>
+		
+		<p class="bio">
 		Reference: <br>
 		Van den Berg, C.  2019. Super Fast String Matching in Python. 
 			<a href="https://bergvca.github.io/2017/10/14/super-fast-string-matching.html" target="_blank" class="credit-links">
