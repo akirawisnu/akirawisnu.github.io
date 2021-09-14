@@ -49,10 +49,9 @@ body {
 
 		<p class="bio">This cosinematch is designed in mind for people that still love Stata for their exploratory data analysis (EDA), but is starting to use Python or at least have Python installation in their arsenal. This article will introduce you to the <span class="InputCode">cosinematch</span> package I've developed. You can get it by starting Stata and typing:</p>
 		
-		<p class="InputCode" style="color: orange;">net install cosinematch, from(https://akirawisnu.github.io/cosine/stata/)</p>
-		<p class="bio">Alternatively, type:</p>
-		<p class="InputCode" style="color: orange;">net from https://akirawisnu.github.io/cosine/stata/</p>
-		<p class="bio">Then click on the <span class="MenuOutput">cosinematch</span> link and  <span class="MenuOutput">click here to install</span>.</p>
+		<p class="InputCode" style="color: orange;">net install github, from("https://haghish.github.io/github/")</p>		
+		<p class="InputCode" style="color: orange;">github install akirawisnu/cosinematch</p>
+
 		<p class="bio">(If you get an error trying to use one of the above commands, try replacing <span class="InputCode">https</span> with <span class="InputCode">http</span>.)</p>
 		<p class="bio">The <span class="InputCode">cosinematch</span> package is in the early stages of development, so you should check its results carefully&#8212;though if something goes wrong it's usually obvious. If you find it does not work properly for a given web page (keeping in mind it only reads tables and lists) please let us know by emailing <a href="mailto:wisnu_harto@yahoo.com">wisnu_harto@yahoo.com</a>, but it will never be able to handle every web page. If you need to parse a web page <span class="InputCode">cosinematch</span> can't handle, the code for the main programs may give you some ideas for how to do it.</p>
 		
@@ -66,6 +65,7 @@ body {
 		6. Keep in mind for Windows user, you will need to change the folder separator from "\" to "/" or UNIX folder format both for master and using data (xdata and ydata). OSX and Linux users have no need to do this<br>
 		7. xvar and yvar have to be in String format already<br>
 		8. You should not have variable name of left_side and right_side, both in master and using data
+		9. Have the Github Stata package installed
 		</p>
 		
 		<p class="bio">
