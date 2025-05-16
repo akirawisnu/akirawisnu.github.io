@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>stata_translate</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #0d1117; color: #c9d1d9; margin: 0; padding: 0; }
+    .container { max-width: 800px; margin: auto; padding: 2rem; }
+    h1, h2 { color: #58a6ff; }
+    code, pre { background: #161b22; padding: 0.5rem; border-radius: 6px; display: block; }
+    a { color: #58a6ff; }
+    .meta { color: #8b949e; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>stata_translate</h1>
+    <p class="meta">Translate text variables in Stata using DeepL Free Translate API</p>
+
+    <h2>Syntax</h2>
+    <pre><code>stata_translate varname</code></pre>
+
+    <h2>Description</h2>
+    <p><code>stata_translate</code> takes a single string variable from your dataset and uses DeepL Free Translate API:</p>
+    <ul>
+      <li>Automatically detect the language of each row.</li>
+      <li>Translate each row's text to English.</li>
+      <li>Save the results in two new variables: <code>translated</code> and <code>srclang</code>.</li>
+    </ul>
+    <p>The command uses Stata’s Python integration and assumes that:</p>
+    <ul>
+      <li>The translation service is online using DeepL API</li>
+      <li>The model <code>llama3.2:latest</code> for local usage will be developed later via <code>ollama</code></li>
+    </ul>
+
+    <h2>Example</h2>
+    <pre><code>. stata_translate description</code></pre>
+    <p>This creates two new variables:</p>
+    <ul>
+      <li><code>translated</code> — English translation</li>
+      <li><code>srclang</code> — Source language (e.g., 'de', 'fr', 'id')</li>
+    </ul>
+
+    <h2>Requirements</h2>
+    <ul>
+      <li>Python configured in Stata 16+ <code>python query</code></li>
+      <li>Python libraries: <code>langdetect</code> <code>deep_translator</code></li>
+	  <li>Install Github module in your Stata: <code>net install github, from("https://haghish.github.io/github/")</code></li>
+	  <li>Install my stata package (stata_translate): <code>github install akirawisnu/stata_translate</code></li>
+    </ul>
+
+    <h2>Author</h2>
+    <p>Written by <strong>@akirawisnu</strong> during his PhD depression break. Feedback or improvements welcome!</p>
+
+    <h2>Also see</h2>
+    <ul>
+      <li><a href="https://ollama.com" target="_blank">https://ollama.com</a></li>
+      <li><a href="https://pypi.org/project/langdetect" target="_blank">https://pypi.org/project/langdetect</a></li>
+    </ul>
+  </div>
+</body>
+</html>
