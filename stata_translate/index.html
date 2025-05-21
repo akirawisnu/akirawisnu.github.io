@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>stata_translate</title>
+  <title>Stata Universal Language Translation (stata_translate)</title>
   <style>
     body { font-family: Arial, sans-serif; background: #0d1117; color: #c9d1d9; margin: 0; padding: 0; }
     .container { max-width: 800px; margin: auto; padding: 2rem; }
@@ -17,36 +17,47 @@
 <body>
   <div class="container">
     <h1>stata_translate</h1>
-    <p class="meta">Translate text variables in Stata using DeepL Free Translate API</p>
+    <p class="meta">Translate text variables in Stata using Google Translate API</p>
 
     <h2>Syntax</h2>
-    <pre><code>stata_translate varname</code></pre>
+    <pre><code>stata_translate varlist</code></pre>
 
     <h2>Description</h2>
     <p><code>stata_translate</code> takes a single string variable from your dataset and uses DeepL Free Translate API:</p>
     <ul>
       <li>Automatically detect the language of each row.</li>
       <li>Translate each row's text to English.</li>
-      <li>Save the results in two new variables: <code>translated</code> and <code>srclang</code>.</li>
+      <li>Save the results in two new variables: <code>*_translated</code> and <code>*_srclang</code>.</li>
     </ul>
     <p>The command uses Stata’s Python integration and assumes that:</p>
     <ul>
-      <li>The translation service is online using DeepL API</li>
+      <li>The translation service is online using Google Translate API</li>
       <li>The model <code>llama3.2:latest</code> for local usage will be developed later via <code>ollama</code></li>
     </ul>
 
     <h2>Example</h2>
-    <pre><code>. stata_translate description</code></pre>
+		<pre><code>
+		clear
+		input str40 city_description str40 food_review
+		"París es una ciudad hermosa" "Le fromage est délicieux"
+		"Berlin ist großartig" "Ich liebe Bratwurst"
+		"東京はとても忙しいです" "寿司はとても新鮮です"
+		end
+
+		stata_translate city_description food_review
+
+		list city_description food_review
+		</code></pre>
     <p>This creates two new variables:</p>
     <ul>
-      <li><code>translated</code> — English translation</li>
-      <li><code>srclang</code> — Source language (e.g., 'de', 'fr', 'id')</li>
+      <li><code>*_translated</code> — English translation</li>
+      <li><code>*_srclang</code> — Source language (e.g., 'de', 'fr', 'id')</li>
     </ul>
 
     <h2>Requirements</h2>
     <ul>
       <li>Python configured in Stata 16+ <code>python query</code></li>
-      <li>Python libraries: <code>langdetect</code> <code>deep_translator</code></li>
+      <li>Python libraries: <code>langdetect</code> <code>deep_translator (with v1.2.0, now it is auto-installed)</code></li>
 	  <li>Install Github module in your Stata: <code>net install github, from("https://haghish.github.io/github/")</code></li>
 	  <li>Install my stata package (stata_translate): <code>github install akirawisnu/stata_translate</code></li>
     </ul>
@@ -58,6 +69,8 @@
     <ul>
       <li><a href="https://ollama.com" target="_blank">https://ollama.com</a></li>
       <li><a href="https://pypi.org/project/langdetect" target="_blank">https://pypi.org/project/langdetect</a></li>
+	  <li><a href="https://www.anaconda.com/download" target="_blank">https://www.anaconda.com/download</a></li>
+	  <li><a href="https://pypi.org/project/deep-translator/" target="_blank">https://pypi.org/project/deep-translator/</a></li>
     </ul>
   </div>
 </body>
